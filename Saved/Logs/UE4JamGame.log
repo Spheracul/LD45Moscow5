@@ -3238,3 +3238,163 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.05-18.56.41:683][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/casWall" FILE="../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/casWall_Auto6.uasset" SILENT=false AUTOSAVING=true
 [2019.10.05-18.56.41:705][200]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/casWall_Auto6317B2F9E4208DB501D79369BC2ABD820.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/casWall_Auto6.uasset'
 [2019.10.05-18.56.41:705][200]LogFileHelpers: Auto-saving content packages took 0.079
+[2019.10.05-19.15.19:993][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.05-19.15.20:004][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-19.15.20:004][ 19]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.10.05-19.15.20:008][ 19]LogPlayLevel: [PlayLevel] Compiling Room_test before play...
+[2019.10.05-19.15.20:008][ 19]LogPlayLevel: [PlayLevel]   Compiling Room_cas1 as a dependent...
+[2019.10.05-19.15.20:197][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.10.05-19.15.20:197][ 19]LogPlayLevel: PlayLevel: Blueprint regeneration took 192 ms (2 blueprints)
+[2019.10.05-19.15.20:197][ 19]PIE: New page: PIE session: MainLevel (06.10.2019 1:15.20)
+[2019.10.05-19.15.20:197][ 19]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2019.10.05-19.15.20:203][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005823s)
+[2019.10.05-19.15.20:204][ 19]LogAIModule: Creating AISystem for world MainLevel
+[2019.10.05-19.15.20:204][ 19]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2019.10.05-19.15.20:204][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.006839s)
+[2019.10.05-19.15.20:230][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2019.10.05-19.15.20:234][ 19]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.05-19.15.20:244][ 19]LogInit: FAudioDevice initialized.
+[2019.10.05-19.15.20:249][ 19]LogLoad: Game class is 'CookieGameMode_C'
+[2019.10.05-19.15.20:250][ 19]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2019.10.05-22.15.20
+[2019.10.05-19.15.20:250][ 19]LogWorld: Bringing up level for play took: 0.000847
+[2019.10.05-19.15.20:251][ 19]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2019.10.05-19.15.20:304][ 19]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 0,751
+[2019.10.05-19.15.20:305][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-19.15.53:884][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.05-19.15.53:969][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-19.15.53:969][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.05-19.15.53:969][ 52]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2019.10.05-19.15.53:971][ 52]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.10.05-19.15.53:977][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.05-19.15.53:978][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-19.15.54:010][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.05-19.15.54:015][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2019.10.05-19.15.54:068][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.10.05-20.04.43:465][781]LogSlate: Window 'Choose Location for importing the scene content' being destroyed
+[2019.10.05-20.04.43:478][781]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 ../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/Levels/table.fbx)
+[2019.10.05-20.04.43:506][781]LogFbx: Loading FBX Scene from ../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/Levels/table.fbx
+[2019.10.05-20.04.43:517][781]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.05-20.04.50:317][781]LogSlate: Window 'FBX Scene Import Options' being destroyed
+[2019.10.05-20.04.50:448][781]LogLinker: Failed to load '/Game/Levels/Material_001': Can't find file.
+[2019.10.05-20.04.50:448][781]LogLinker: Failed to load '/Game/Levels/Material_001': Can't find file.
+[2019.10.05-20.04.50:451][781]LogLinker: Failed to load '/Game/Levels/Levels': Can't find file.
+[2019.10.05-20.04.50:452][781]LogLinker: Failed to load '/Game/Levels/Levels': Can't find file.
+[2019.10.05-20.04.50:452][781]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\Game Maker\Documents\GitHub\LD45Moscow5\Content\Levels
+[2019.10.05-20.04.50:452][781]LogFbxMaterialImport: Warning: Unable to find Texture file C:\Users\Game Maker\Documents\GitHub\LD45Moscow5\Content\Levels
+[2019.10.05-20.04.50:455][781]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2019.10.05-20.04.50:468][781]LogFbx: Display: Triangulating static mesh Cube
+[2019.10.05-20.04.50:482][781]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2019.10.05-20.04.50:482][781]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2019.10.05-20.04.50:482][781]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2019.10.05-20.04.50:482][781]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2019.10.05-20.04.50:482][781]LogStaticMesh: Building static mesh Cube_001...
+[2019.10.05-20.04.50:491][781]LogStaticMesh: Built static mesh [0.01s] /Game/Levels/Cube_001.Cube_001
+[2019.10.05-20.04.50:492][781]LogStaticMesh: Warning: Cube_001 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2019.10.05-20.04.50:492][781]LogStaticMesh: Warning: Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.10.05-20.04.50:557][781]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2019.10.05-20.04.50:560][781]PIE: Warning: AttachTo: '/Game/Levels/MainLevel.MainLevel:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Game/Levels/MainLevel.MainLevel:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.04.50:561][781]PIE: Warning: AttachTo: '/Game/Levels/MainLevel.MainLevel:PersistentLevel.FbxScene_table.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Game/Levels/MainLevel.MainLevel:PersistentLevel.FbxScene_table.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.04.50:567][781]PIE: Warning: AttachTo: '/Game/Levels/MainLevel.MainLevel:PersistentLevel.FbxScene_table.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Game/Levels/MainLevel.MainLevel:PersistentLevel.FbxScene_table.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.04.50:569][781]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Levels/FbxScene_table.FbxScene_table
+[2019.10.05-20.04.51:047][781]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.10.05-20.04.51:047][781]FBXImport: Warning: Cube_001 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2019.10.05-20.04.51:047][781]FBXImport: Warning: Cube_001 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.10.05-20.04.51:067][781]PIE: Warning: AttachTo: '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.04.51:170][781]PIE: Warning: AttachTo: '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.04.51:231][782]PIE: Warning: AttachTo: '/Engine/Transient.World_24:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Engine/Transient.World_24:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.04.54:277][993]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2019.10.05-20.04.54:428][993]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/MainLevel_Auto7276759434CA1B56447C6DEB1F7C59838.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/Levels/MainLevel_Auto7.umap'
+[2019.10.05-20.04.54:434][993]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLevel' took 0.187
+[2019.10.05-20.04.54:434][993]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.187
+[2019.10.05-20.04.54:435][993]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Levels/table] ([1] browsable assets)...
+[2019.10.05-20.04.54:435][993]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/table]
+[2019.10.05-20.04.54:435][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/table" FILE="../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/Levels/table_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2019.10.05-20.04.54:442][993]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/table_Auto77FB7596843EC0C17289927B533D5E56E.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/Levels/table_Auto7.uasset'
+[2019.10.05-20.04.54:442][993]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/Cube_001] ([1] browsable assets)...
+[2019.10.05-20.04.54:451][993]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Levels/Cube_001.Cube_001]
+[2019.10.05-20.04.54:451][993]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/Cube_001]
+[2019.10.05-20.04.54:451][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Cube_001" FILE="../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/Levels/Cube_001_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2019.10.05-20.04.54:466][993]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Cube_001_Auto728FC32D64951CD770CC1CAAABB900774.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/Levels/Cube_001_Auto7.uasset'
+[2019.10.05-20.04.54:467][993]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/Material_001] ([1] browsable assets)...
+[2019.10.05-20.04.54:476][993]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Levels/Material_001.Material_001]
+[2019.10.05-20.04.54:476][993]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/Material_001]
+[2019.10.05-20.04.54:488][993]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Material_001_Auto79E090FFC4360289FE52950A1368CCEB8.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/Levels/Material_001_Auto7.uasset'
+[2019.10.05-20.04.54:489][993]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Levels/FbxScene_table] ([1] browsable assets)...
+[2019.10.05-20.04.54:498][993]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Levels/FbxScene_table.FbxScene_table]
+[2019.10.05-20.04.54:498][993]OBJ SavePackage: Finished generating thumbnails for package [/Game/Levels/FbxScene_table]
+[2019.10.05-20.04.54:512][993]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/FbxScene_table_Auto709581989443C36D4FE5C588FE6A84A47.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/Levels/FbxScene_table_Auto7.uasset'
+[2019.10.05-20.04.54:513][993]LogFileHelpers: Auto-saving content packages took 0.078
+[2019.10.05-20.05.00:195][534]LogSlate: Window 'Message Log' being destroyed
+[2019.10.05-20.05.00:199][534]LogSlate: Window 'Message Log' being destroyed
+[2019.10.05-20.05.05:198][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.05-20.05.05:291][ 42]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.05-20.05.05:302][ 42]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-20.05.05:302][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.05-20.05.05:302][ 42]PIE: New page: PIE session: MainLevel (06.10.2019 2:05.05)
+[2019.10.05-20.05.05:302][ 42]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2019.10.05-20.05.05:309][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006202s)
+[2019.10.05-20.05.05:309][ 42]LogAIModule: Creating AISystem for world MainLevel
+[2019.10.05-20.05.05:310][ 42]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2019.10.05-20.05.05:310][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.007171s)
+[2019.10.05-20.05.05:337][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2019.10.05-20.05.05:342][ 42]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.05-20.05.05:352][ 42]LogInit: FAudioDevice initialized.
+[2019.10.05-20.05.05:366][ 42]LogLoad: Game class is 'CookieGameMode_C'
+[2019.10.05-20.05.05:367][ 42]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2019.10.05-23.05.05
+[2019.10.05-20.05.05:368][ 42]LogWorld: Bringing up level for play took: 0.000982
+[2019.10.05-20.05.05:368][ 42]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2019.10.05-20.05.05:424][ 42]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel -0,13
+[2019.10.05-20.05.05:424][ 42]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-20.05.15:160][158]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.05-20.05.17:993][491]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.05-20.05.19:950][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.05-20.05.20:050][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-20.05.20:051][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.05-20.05.20:051][728]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2019.10.05-20.05.20:052][728]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.10.05-20.05.20:061][728]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.05-20.05.20:061][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-20.05.20:096][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.05-20.05.20:101][728]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.10.05-20.05.20:118][728]PIE: Warning: AttachTo: '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_0.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.05.20:152][731]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.10.05-20.05.21:231][855]PIE: Warning: AttachTo: '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_1.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_1.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.05.26:816][508]PIE: Warning: AttachTo: '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_2.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_2.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.05.27:418][578]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.05-20.05.27:429][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-20.05.27:429][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.05-20.05.27:429][578]PIE: New page: PIE session: MainLevel (06.10.2019 2:05.27)
+[2019.10.05-20.05.27:429][578]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2019.10.05-20.05.27:434][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005195s)
+[2019.10.05-20.05.27:435][578]LogAIModule: Creating AISystem for world MainLevel
+[2019.10.05-20.05.27:435][578]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2019.10.05-20.05.27:435][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.006072s)
+[2019.10.05-20.05.27:463][578]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2019.10.05-20.05.27:467][578]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.05-20.05.27:477][578]LogInit: FAudioDevice initialized.
+[2019.10.05-20.05.27:485][578]LogLoad: Game class is 'CookieGameMode_C'
+[2019.10.05-20.05.27:487][578]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2019.10.05-23.05.27
+[2019.10.05-20.05.27:487][578]LogWorld: Bringing up level for play took: 0.001082
+[2019.10.05-20.05.27:487][578]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2019.10.05-20.05.27:542][578]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel -0,012
+[2019.10.05-20.05.27:542][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-20.05.34:500][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.05-20.05.42:417][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.05-20.05.45:440][577]PIE: Warning: AttachTo: '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_3.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_3.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.05.46:292][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-20.05.46:292][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.05-20.05.46:292][669]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
+[2019.10.05-20.05.46:293][669]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2019.10.05-20.05.46:303][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.05-20.05.46:303][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2019.10.05-20.05.46:338][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.05-20.05.46:343][669]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2019.10.05-20.05.46:370][669]PIE: Warning: AttachTo: '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_3.DefaultSceneRoot' is not static  (in blueprint "FbxScene_table"), cannot attach '/Engine/Transient.World_23:PersistentLevel.FbxScene_table_C_3.DefaultSceneRoot1' which is static to it. Aborting.
+[2019.10.05-20.05.46:401][671]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.10.05-20.05.59:415][125]LogSlate: Window 'Message Log' being destroyed
+[2019.10.05-20.05.59:418][125]LogSlate: Window 'Message Log' being destroyed
+[2019.10.05-20.06.04:182][684]AssetReimport: New page: Outstanding source content changes 2:06.04
+[2019.10.05-20.06.04:188][684]LogFbx: Loading FBX Scene from C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/Levels/table.fbx
+[2019.10.05-20.06.04:193][684]LogFbx: FBX Scene Loaded Succesfully
+[2019.10.05-20.06.04:194][684]LogLinker: Failed to load '/Game/Levels/Cube_001': Can't find file.
+[2019.10.05-20.06.04:194][684]LogLinker: Failed to load '/Game/Levels/Cube_001': Can't find file.
