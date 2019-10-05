@@ -576,3 +576,44 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.05-08.04.43:562][  5]LogWindows: Warning: URL: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/ version
 [2019.10.05-08.05.22:924][504]SourceControl: Source control is disabled
 [2019.10.05-08.05.22:924][504]LogSlate: Window 'Source Control Login' being destroyed
+[2019.10.05-08.09.29:855][641]LogSlate: Took 0.003633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.05-08.09.29:885][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2019.10.05-08.09.29:885][641]LogMetaData: Removing '/Game/Levels/MainLevel.SKEL_MainLevel_C' ref from Metadata '/Game/Levels/TestLevel.PackageMetaData'
+[2019.10.05-08.09.29:885][641]LogMetaData: Removing '/Game/Levels/MainLevel.MainLevel_C' ref from Metadata '/Game/Levels/TestLevel.PackageMetaData'
+[2019.10.05-08.09.29:885][641]LogMetaData: Removing '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Levels/TestLevel.PackageMetaData'
+[2019.10.05-08.09.29:885][641]LogMetaData: Removing '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Levels/TestLevel.PackageMetaData'
+[2019.10.05-08.09.29:921][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2019.10.05-08.09.30:008][641]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/MainLevel6E5F793F434E7619C8F3A0AAD84948F4.tmp' to '../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Content/Levels/MainLevel.umap'
+[2019.10.05-08.09.30:015][641]LogFileHelpers: Saving map 'MainLevel' took 0.117
+[2019.10.05-08.09.30:090][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2019.10.05-08.09.30:111][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.10.05-08.09.30:128][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.10.05-08.09.31:956][857]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MainLevel.MainLevel
+[2019.10.05-08.09.31:973][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.10.05-08.09.31:974][857]Cmd: MAP LOAD FILE="../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Content/Levels/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.05-08.09.31:974][857]LightingResults: New page: Lighting Build
+[2019.10.05-08.09.31:975][857]LoadErrors: New page: Loading map: MainLevel.umap
+[2019.10.05-08.09.31:975][857]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2019.10.05-08.09.31:975][857]MapCheck: New page: Map Check
+[2019.10.05-08.09.31:975][857]LightingResults: New page: Lighting Build
+[2019.10.05-08.09.31:994][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.10.05-08.09.31:996][857]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.05-08.09.31:996][857]LogAIModule: Creating AISystem for world MainLevel
+[2019.10.05-08.09.32:013][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.10.05-08.09.32:027][857]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.05-08.09.32:027][857]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,078ms to complete.
+[2019.10.05-08.09.32:028][857]LogFileHelpers: Loading map 'MainLevel' took 0.054
+[2019.10.05-08.09.36:232][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.05-08.09.37:701][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.05-08.09.42:738][122]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.10.05-08.09.42:738][122]LogWindows: Warning: URL: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/ version
+[2019.10.05-08.10.30:868][277]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.10.05-08.10.30:868][277]LogWindows: Warning: URL: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/ version
+[2019.10.05-08.10.30:869][277]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2019.10.05-08.11.08:177][856]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.10.05-08.11.08:177][856]LogWindows: Warning: URL: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/ version
+[2019.10.05-08.11.08:177][856]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2019.10.05-08.11.09:843][ 56]SourceControl: Source control is disabled
+[2019.10.05-08.11.09:843][ 56]LogSlate: Window 'Source Control Login' being destroyed
+[2019.10.05-08.11.42:380][585]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2019.10.05-08.11.42:380][585]LogWindows: Warning: URL: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/ version
