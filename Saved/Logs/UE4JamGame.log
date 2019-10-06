@@ -1,4 +1,4 @@
-﻿Log file open, 10/07/19 00:20:57
+﻿Log file open, 10/07/19 00:30:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: UE4JamGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.057015
+LogStats: Stats thread started at 0.063423
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -126,7 +126,7 @@ LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line: 
+LogInit: Command Line:  -EpicPortal -epicusername=BarHanSolo -epicuserid=7c91b686c1ff438093f71001c2f0265a -epiclocale=en-US
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -157,386 +157,979 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
-[2019.10.06-21.20.57:208][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.06-21.20.57:209][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.06-21.20.57:209][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.06-21.20.57:209][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
-[2019.10.06-21.20.57:209][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
-[2019.10.06-21.20.57:210][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:210][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.06-21.20.57:210][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.06-21.20.57:210][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:210][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.06-21.20.57:210][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:210][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.06-21.20.57:211][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.06-21.20.57:211][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.06-21.20.57:213][  0]LogHAL: Display: Platform has ~ 32 GB [34296160256 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.06-21.20.57:213][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.06-21.20.57:213][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.06-21.20.57:213][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.06-21.20.57:213][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.06-21.20.57:215][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.06-21.20.57:215][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.06-21.20.57:215][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
-[2019.10.06-21.20.57:215][  0]LogInit: Computer: 3D1-04
-[2019.10.06-21.20.57:215][  0]LogInit: User: GameMaker
-[2019.10.06-21.20.57:215][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.06-21.20.57:215][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.06-21.20.57:215][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.10.06-21.20.57:215][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.06-21.20.57:215][  0]LogMemory: Process Physical Memory: 100.39 MB used, 100.39 MB peak
-[2019.10.06-21.20.57:215][  0]LogMemory: Process Virtual Memory: 88.50 MB used, 88.50 MB peak
-[2019.10.06-21.20.57:215][  0]LogMemory: Physical Memory: 4499.28 MB used,  28208.09 MB free, 32707.37 MB total
-[2019.10.06-21.20.57:215][  0]LogMemory: Virtual Memory: 4670.90 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2019.10.06-21.20.57:217][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.10.06-21.20.57:232][  0]LogInit: Using OS detected language (en-US).
-[2019.10.06-21.20.57:232][  0]LogInit: Using OS detected locale (et-EE).
-[2019.10.06-21.20.57:233][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.06-21.20.57:378][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.06-21.20.57:430][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.06-21.20.57:430][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.06-21.20.57:544][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.06-21.20.57:544][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.06-21.20.57:582][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.10.06-21.20.57:582][  0]LogD3D11RHI:       4058/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.10.06-21.20.57:584][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.06-21.20.57:584][  0]LogD3D11RHI:       0/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.06-21.20.57:584][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.06-21.20.57:587][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.06-21.20.57:587][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.06-21.20.57:587][  0]LogWindows: EnumDisplayDevices:
-[2019.10.06-21.20.57:587][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.10.06-21.20.57:587][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.10.06-21.20.57:588][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.10.06-21.20.57:588][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.10.06-21.20.57:588][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.10.06-21.20.57:588][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.10.06-21.20.57:588][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2019.10.06-21.20.57:588][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2019.10.06-21.20.57:588][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
-[2019.10.06-21.20.57:612][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.06-21.20.57:621][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.10.06-21.20.57:841][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.10.06-21.20.57:847][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.10.06-21.20.57:854][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.10.06-21.20.57:860][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.10.06-21.20.57:867][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.10.06-21.20.57:874][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.06-21.20.57:881][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.06-21.20.57:887][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.06-21.20.57:890][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.10.06-21.20.57:915][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.10.06-21.20.57:929][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.10.06-21.20.57:929][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.10.06-21.20.57:939][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.10.06-21.20.57:939][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.10.06-21.20.57:944][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.10.06-21.20.57:949][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.10.06-21.20.57:955][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.10.06-21.20.57:960][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.10.06-21.20.57:979][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.10.06-21.20.57:979][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.10.06-21.20.57:979][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.06-21.20.57:986][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.06-21.20.58:020][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow52/Intermediate/Shaders/WorkingDirectory/1728/).
-[2019.10.06-21.20.58:020][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Game Maker/AppData/Local/Temp/UnrealShaderWorkingDir/797FE6344CD064E71FD8AF89BF04CC85/'.
-[2019.10.06-21.20.58:022][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.06-21.20.58:022][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.06-21.20.58:022][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.06-21.20.58:543][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow52/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow52/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.06-21.20.58:592][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.06-21.20.58:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.06-21.20.58:592][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.10.06-21.20.58:593][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Game Maker/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.06-21.20.58:593][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.06-21.20.58:593][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.06-21.20.58:611][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.06-21.20.58:613][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.06-21.20.58:613][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.06-21.20.58:655][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
-[2019.10.06-21.20.58:859][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.06-21.20.58:975][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.06-21.20.58:975][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.06-21.20.58:975][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.06-21.20.58:975][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.06-21.20.58:975][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.06-21.20.58:982][  0]LogNetVersion: UE4JamGame 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 226814519)
-[2019.10.06-21.20.59:297][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.041262 seconds
-[2019.10.06-21.20.59:303][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.10.06-21.20.59:303][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.10.06-21.20.59:303][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.06-21.20.59:963][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.06-21.20.59:965][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.06-21.21.00:004][  0]SourceControl: Source control is disabled
-[2019.10.06-21.21.00:004][  0]SourceControl: Source control is disabled
-[2019.10.06-21.21.00:005][  0]SourceControl: Source control is disabled
-[2019.10.06-21.21.00:006][  0]SourceControl: Source control is disabled
-[2019.10.06-21.21.00:067][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.06-21.21.00:132][  0]LogOcInput: OculusInput pre-init called
-[2019.10.06-21.21.00:137][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.10.06-21.21.00:137][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.10.06-21.21.00:190][  0]LogEngine: Initializing Engine...
-[2019.10.06-21.21.00:191][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.06-21.21.00:192][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.10.06-21.21.00:371][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.06-21.21.00:383][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.06-21.21.00:391][  0]LogInit: XAudio2 using 'Speakers (2- Logitech USB Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.10.06-21.21.00:409][  0]LogInit: FAudioDevice initialized.
-[2019.10.06-21.21.00:409][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.06-21.21.00:479][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.06-21.21.00:487][  0]LogInit: Texture streaming: Enabled
-[2019.10.06-21.21.00:501][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.06-21.21.00:549][  0]LogInit: Transaction tracking system initialized
-[2019.10.06-21.21.00:573][  0]BlueprintLog: New page: Editor Load
-[2019.10.06-21.21.00:638][  0]LocalizationService: Localization service is disabled
-[2019.10.06-21.21.00:853][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Content/' took 0.00s
-[2019.10.06-21.21.00:853][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.06-21.21.00:853][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.06-21.21.01:028][  0]SourceControl: Source control is disabled
-[2019.10.06-21.21.01:028][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.06-21.21.01:028][  0]LightingResults: New page: Lighting Build
-[2019.10.06-21.21.01:030][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.10.06-21.21.01:030][  0]MapCheck: New page: Map Check
-[2019.10.06-21.21.01:030][  0]LightingResults: New page: Lighting Build
-[2019.10.06-21.21.01:051][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
-[2019.10.06-21.21.01:114][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.10.06-21.21.01:118][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.06-21.21.01:139][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
-[2019.10.06-21.21.01:139][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.06-21.21.01:139][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,091ms to complete.
-[2019.10.06-21.21.01:139][  0]LogFileHelpers: Loading map 'Template_Default' took 0.112
-[2019.10.06-21.21.01:218][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-21.21.01:223][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-21.21.01:229][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-21.21.01:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-21.21.01:239][  0]LogCollectionManager: Loaded 0 collections in 0.001285 seconds
-[2019.10.06-21.21.01:245][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Collections/' took 0.00s
-[2019.10.06-21.21.01:245][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Content/Developers/GameMaker/Collections/' took 0.00s
-[2019.10.06-21.21.01:245][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Content/Collections/' took 0.00s
-[2019.10.06-21.21.01:245][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.10.06-21.21.01:251][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2863 classes and 680 folders.
-[2019.10.06-21.21.01:256][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.10.06-21.21.01:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.10.06-21.21.01:286][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.10.06-21.21.01:296][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.06-21.21.01:297][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.06-21.21.01:301][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.06-21.21.01:356][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2019.10.06-21.21.01:428][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.10.06-21.21.01:428][  0]LogLoad: (Engine Initialization) Total time: 4.96 seconds
-[2019.10.06-21.21.01:428][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.06-21.21.01:469][  0]LogAssetRegistry: Asset discovery search completed in 2.8146 seconds
-[2019.10.06-21.21.01:472][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2019.10.06-21.21.01:472][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
-[2019.10.06-21.21.01:473][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.06-21.21.01:498][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.06-21.30.11:578][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.06-21.30.11:578][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.30.11:579][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.06-21.30.11:579][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.30.11:579][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.30.11:581][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.06-21.30.11:581][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.06-21.30.11:582][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.06-21.30.11:582][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.06-21.30.11:582][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.06-21.30.11:582][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:582][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.06-21.30.11:582][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.06-21.30.11:582][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.06-21.30.11:582][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.06-21.30.11:584][  0]LogHAL: Display: Platform has ~ 24 GB [25706225664 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.06-21.30.11:584][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.06-21.30.11:584][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.06-21.30.11:584][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.06-21.30.11:585][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.30.11:585][  0]LogInit: Computer: 3D1-07
+[2019.10.06-21.30.11:585][  0]LogInit: User: GameMaker
+[2019.10.06-21.30.11:585][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.06-21.30.11:585][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.06-21.30.11:585][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2019.10.06-21.30.11:585][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.06-21.30.11:585][  0]LogMemory: Process Physical Memory: 99.68 MB used, 99.68 MB peak
+[2019.10.06-21.30.11:585][  0]LogMemory: Process Virtual Memory: 98.99 MB used, 98.99 MB peak
+[2019.10.06-21.30.11:585][  0]LogMemory: Physical Memory: 7650.65 MB used,  16864.72 MB free, 24515.37 MB total
+[2019.10.06-21.30.11:585][  0]LogMemory: Virtual Memory: 4681.34 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.10.06-21.30.11:587][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.06-21.30.11:602][  0]LogInit: Using OS detected language (en-US).
+[2019.10.06-21.30.11:602][  0]LogInit: Using OS detected locale (et-EE).
+[2019.10.06-21.30.11:602][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.06-21.30.11:760][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.06-21.30.11:784][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.06-21.30.11:784][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.06-21.30.11:899][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.06-21.30.11:899][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.06-21.30.11:937][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.10.06-21.30.11:937][  0]LogD3D11RHI:       4058/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.06-21.30.11:939][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.06-21.30.11:939][  0]LogD3D11RHI:       0/0/12257 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.06-21.30.11:939][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.06-21.30.11:943][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.06-21.30.11:943][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.06-21.30.11:943][  0]LogWindows: EnumDisplayDevices:
+[2019.10.06-21.30.11:943][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.10.06-21.30.11:943][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.10.06-21.30.11:944][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.10.06-21.30.11:944][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.10.06-21.30.11:944][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.10.06-21.30.11:944][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.10.06-21.30.11:944][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.10.06-21.30.11:944][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.10.06-21.30.11:944][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
+[2019.10.06-21.30.11:968][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.06-21.30.11:977][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.06-21.30.12:196][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.06-21.30.12:203][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.06-21.30.12:211][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.06-21.30.12:218][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.06-21.30.12:225][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.06-21.30.12:232][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.06-21.30.12:240][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.06-21.30.12:247][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.06-21.30.12:250][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.06-21.30.12:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.06-21.30.12:278][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.06-21.30.12:292][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.06-21.30.12:292][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.06-21.30.12:303][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.06-21.30.12:303][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.06-21.30.12:309][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.06-21.30.12:315][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.06-21.30.12:320][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.06-21.30.12:326][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.06-21.30.12:346][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.06-21.30.12:346][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.06-21.30.12:346][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.06-21.30.12:353][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.06-21.30.12:389][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Intermediate/Shaders/WorkingDirectory/1952/).
+[2019.10.06-21.30.12:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Game Maker/AppData/Local/Temp/UnrealShaderWorkingDir/8E33DCF6445091218CA799AF96A3DE3A/'.
+[2019.10.06-21.30.12:391][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.06-21.30.12:391][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.06-21.30.12:391][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.06-21.30.12:920][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.06-21.30.12:970][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.06-21.30.12:970][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.06-21.30.12:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.06-21.30.12:970][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.06-21.30.12:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.06-21.30.12:970][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.06-21.30.12:980][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.06-21.30.12:980][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.06-21.30.12:980][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.06-21.30.12:981][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Game Maker/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.06-21.30.12:981][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.06-21.30.12:981][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.06-21.30.12:999][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.06-21.30.13:001][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.06-21.30.13:002][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.06-21.30.13:043][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
+[2019.10.06-21.30.13:285][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.06-21.30.13:419][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.06-21.30.13:419][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.06-21.30.13:419][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.06-21.30.13:419][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.06-21.30.13:419][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.06-21.30.13:426][  0]LogNetVersion: UE4JamGame 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 226814519)
+[2019.10.06-21.30.13:755][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.040446 seconds
+[2019.10.06-21.30.13:761][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.06-21.30.13:761][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.06-21.30.13:761][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.06-21.30.14:414][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.06-21.30.14:417][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.06-21.30.14:458][  0]SourceControl: Source control is disabled
+[2019.10.06-21.30.14:458][  0]SourceControl: Source control is disabled
+[2019.10.06-21.30.14:458][  0]SourceControl: Source control is disabled
+[2019.10.06-21.30.14:459][  0]SourceControl: Source control is disabled
+[2019.10.06-21.30.14:522][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.06-21.30.14:589][  0]LogOcInput: OculusInput pre-init called
+[2019.10.06-21.30.14:594][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.06-21.30.14:594][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.06-21.30.14:653][  0]LogEngine: Initializing Engine...
+[2019.10.06-21.30.14:654][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.06-21.30.14:655][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.06-21.30.14:859][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.06-21.30.14:872][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.06-21.30.14:882][  0]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.06-21.30.14:896][  0]LogInit: FAudioDevice initialized.
+[2019.10.06-21.30.14:896][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.06-21.30.14:974][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.06-21.30.14:991][  0]LogInit: Texture streaming: Enabled
+[2019.10.06-21.30.15:010][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.06-21.30.15:052][  0]LogInit: Transaction tracking system initialized
+[2019.10.06-21.30.15:078][  0]BlueprintLog: New page: Editor Load
+[2019.10.06-21.30.15:157][  0]LocalizationService: Localization service is disabled
+[2019.10.06-21.30.15:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/' took 0.00s
+[2019.10.06-21.30.15:345][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.06-21.30.15:345][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.06-21.30.15:508][  0]SourceControl: Source control is disabled
+[2019.10.06-21.30.15:508][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.06-21.30.15:509][  0]LightingResults: New page: Lighting Build
+[2019.10.06-21.30.15:511][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-21.30.15:511][  0]MapCheck: New page: Map Check
+[2019.10.06-21.30.15:511][  0]LightingResults: New page: Lighting Build
+[2019.10.06-21.30.15:532][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2019.10.06-21.30.15:592][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.10.06-21.30.15:596][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.06-21.30.15:618][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.10.06-21.30.15:618][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.06-21.30.15:618][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,097ms to complete.
+[2019.10.06-21.30.15:618][  0]LogFileHelpers: Loading map 'Template_Default' took 0.110
+[2019.10.06-21.30.15:769][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.30.15:774][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.30.15:779][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.30.15:784][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.30.15:789][  0]LogCollectionManager: Loaded 0 collections in 0.001538 seconds
+[2019.10.06-21.30.15:793][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Collections/' took 0.00s
+[2019.10.06-21.30.15:793][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/Developers/GameMaker/Collections/' took 0.00s
+[2019.10.06-21.30.15:793][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/Collections/' took 0.00s
+[2019.10.06-21.30.15:793][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.10.06-21.30.15:800][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2863 classes and 680 folders.
+[2019.10.06-21.30.15:805][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.06-21.30.15:832][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.06-21.30.15:836][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.10.06-21.30.15:846][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.06-21.30.15:847][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.06-21.30.15:853][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.06-21.30.15:904][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.10.06-21.30.15:989][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.06-21.30.15:989][  0]LogLoad: (Engine Initialization) Total time: 5.33 seconds
+[2019.10.06-21.30.15:989][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.06-21.30.16:056][  0]LogAssetRegistry: Asset discovery search completed in 3.0135 seconds
+[2019.10.06-21.30.16:059][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2019.10.06-21.30.16:059][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2019.10.06-21.30.16:060][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.06-21.30.16:072][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.06-21.30.17:688][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.30.29:667][615]LogBlueprint: Warning: Timeline MovementChangeTL Track MovementTL in /Engine/Transient.REINST_CookieBase_C_12 has an invalid curve.  Please fix!
+[2019.10.06-21.30.29:777][615]LogTexture: Display: Building textures: dirt (BGRA8, 345X345)
+[2019.10.06-21.30.29:777][615]LogMaterial: Display: Missing cached shader map for material Mat_Dirt, compiling. 
+[2019.10.06-21.30.37:628][615]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 43
+[2019.10.06-21.30.37:628][615]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2019.10.06-21.30.37:628][615]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2019.10.06-21.30.37:629][615]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2019.10.06-21.30.37:629][615]LogTexture: Display: Building textures: dungeon (AutoDXT, 3600X2400)
+[2019.10.06-21.30.37:629][615]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2019.10.06-21.30.37:629][615]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.10.06-21.30.37:629][615]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2019.10.06-21.30.37:629][615]LogStaticMesh: Building static mesh CookieBuilds_Wall_Doorway...
+[2019.10.06-21.30.37:637][615]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.06-21.30.37:651][615]LogStaticMesh: Built static mesh [0.02s] /Game/LevelActors/Meshes/CookieBuilds_Wall_Doorway.CookieBuilds_Wall_Doorway
+[2019.10.06-21.30.46:045][587]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2019.10.06-21.30.46:068][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.10.06-21.30.46:068][587]LogMetaData: Removing '/Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1_C' ref from Metadata '/Game/LevelActors/RoomCollection/Room_symmetric.PackageMetaData'
+[2019.10.06-21.30.46:068][587]LogMetaData: Removing '/Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/LevelActors/RoomCollection/Room_symmetric.PackageMetaData'
+[2019.10.06-21.30.46:068][587]LogMetaData: Removing '/Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/LevelActors/RoomCollection/Room_symmetric.PackageMetaData'
+[2019.10.06-21.30.46:068][587]LogMetaData: Removing '/Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/LevelActors/RoomCollection/Room_symmetric.PackageMetaData'
+[2019.10.06-21.30.46:068][587]LogMetaData: Removing '/Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/LevelActors/RoomCollection/Room_symmetric.PackageMetaData'
+[2019.10.06-21.30.46:068][587]LogMetaData: Removing '/Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/LevelActors/RoomCollection/Room_symmetric.PackageMetaData'
+[2019.10.06-21.30.46:068][587]LogMetaData: Removing '/Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/LevelActors/RoomCollection/Room_symmetric.PackageMetaData'
+[2019.10.06-21.30.46:068][587]LogMetaData: Removing '/Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/LevelActors/RoomCollection/Room_symmetric.PackageMetaData'
+[2019.10.06-21.30.46:068][587]LogMetaData: Removing '/Game/LevelActors/RoomCollection/Room_symmetric1.SKEL_Room_symmetric1_C' ref from Metadata '/Game/LevelActors/RoomCollection/Room_symmetric.PackageMetaData'
+[2019.10.06-21.30.46:113][587]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_symmetric15E18D1FB4ABBE6979CB314B26333C9C4.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_symmetric1.uasset'
+[2019.10.06-21.30.46:197][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.10.06-21.30.46:218][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.10.06-21.30.46:238][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.10.06-21.30.46:279][587]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_Symmetric2E7F8E28B47E5C3D43A09AFA0FFAE02A7.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_Symmetric2.uasset'
+[2019.10.06-21.30.52:754][353]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.10.06-21.30.53:129][353]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.375 s
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: === Handled ensure: ===
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: 
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 222]
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: Found circular redirect from /Game/LevelActors/RoomCollection/Room_Symmetric2.Room_Symmetric2 to /Game/LevelActors/RoomCollection/Room_symmetric2.Room_symmetric2! Returning None instead
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: Stack: 
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8078e6df0 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8075662e4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80781f2d6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff807836089 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80759ded7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80752bc83 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80782d683 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8076b543c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8077dfb89 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8077e00e1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8076b756c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8076b5512 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8077dfb89 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80777e21c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8077e00e1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8076b756c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80777e8c3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80777cceb UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80777c9d4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff803301f95 UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff803301a3c UE4Editor-Engine.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8077c1c22 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8077e39c9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8077ca631 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff801ae795f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff801ae82f7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff801b1f3b8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff801b1bc3b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff8022e7550 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff801e5bb22 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff801e5a630 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff801e6ee16 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ffff2eb4f02 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ffff2e6a8aa UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ffff2eca280 UE4Editor-AssetTools.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ffff1ba3cc8 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ffff1c0b0de UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ffff1c51254 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ffff1b81f7d UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ffff1b64609 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80d93783b UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80d925ef9 UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80d92be6d UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80d92d1b2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80d85ecad UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80d6a3076 UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80d713413 UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff80d7087fe UE4Editor-Slate.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff83fe24a7c UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff83fe126df UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff83fe27340 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff83fe0edd0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff85385ca66 USER32.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff85385c582 USER32.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff83fe288e9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff7656b6980 UE4Editor.exe!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff7656ca91c UE4Editor.exe!UnknownFunction []
+[2019.10.06-21.30.53:129][353]LogOutputDevice: Error: [Callstack] 0x00007ff7656ca9fa UE4Editor.exe!UnknownFunction []
+[2019.10.06-21.30.53:130][353]LogOutputDevice: Error: [Callstack] 0x00007ff7656db92c UE4Editor.exe!UnknownFunction []
+[2019.10.06-21.30.53:130][353]LogOutputDevice: Error: [Callstack] 0x00007ff7656de60e UE4Editor.exe!UnknownFunction []
+[2019.10.06-21.30.53:130][353]LogOutputDevice: Error: [Callstack] 0x00007ff8540a7974 KERNEL32.DLL!UnknownFunction []
+[2019.10.06-21.30.53:130][353]LogOutputDevice: Error: [Callstack] 0x00007ff8547aa271 ntdll.dll!UnknownFunction []
+[2019.10.06-21.30.53:130][353]LogOutputDevice: Error: 
+[2019.10.06-21.30.53:131][353]LogStats:                SubmitErrorReport -  0.000 s
+[2019.10.06-21.30.53:416][353]LogStats:                    SendNewReport -  0.286 s
+[2019.10.06-21.30.53:416][353]LogStats:             FDebug::EnsureFailed -  0.662 s
+[2019.10.06-21.30.53:430][353]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_Symmetric2E3D05E2743A6FEA423462DABCE3D0BD9.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_Symmetric2.uasset'
+[2019.10.06-21.30.53:553][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.10.06-21.30.54:216][429]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1
+[2019.10.06-21.30.54:391][429]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2019.10.06-21.30.55:297][429]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.06-21.30.58:816][828]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2019.10.06-21.31.58:914][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.32.10:554][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.32.35:253][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.32.44:867][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.32.59:433][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.33.19:354][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.33.23:052][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.33.31:107][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.33.35:305][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.33.46:333][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.34.05:167][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.34.19:047][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.34.33:531][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.35.08:742][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.35.13:729][172]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.06-21.35.34:085][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.35.41:886][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.35.55:517][671]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.06-21.35.59:591][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.36.09:982][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.36.23:337][469]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.36.30:193][162]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.36.40:990][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.36.53:630][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.37.11:600][125]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.37.20:489][  1]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.37.47:374][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.37.47:480][  7]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_symmetric1884A916B42658DAA36BA60ACC3F874EE.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_symmetric1.uasset'
+[2019.10.06-21.37.51:181][381]LogSlate: Window 'Room_symmetric1' being destroyed
+[2019.10.06-21.37.51:198][381]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-21.37.55:242][858]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_Symmetric2.Room_symmetric2
+[2019.10.06-21.37.55:480][858]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2019.10.06-21.38.00:936][507]LogSlate: Window 'CompilerResults' being destroyed
+[2019.10.06-21.38.00:938][507]LogSlate: Window 'CompilerResults' being destroyed
+[2019.10.06-21.38.04:064][882]LogSlate: Window 'Room_symmetric2' being destroyed
+[2019.10.06-21.38.04:080][882]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-21.38.04:128][882]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_Symmetric2.Room_symmetric2
+[2019.10.06-21.38.06:302][ 99]LogSlate: Window 'Room_symmetric2' being destroyed
+[2019.10.06-21.39.30:725][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.39.30:783][905]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.06-21.39.30:797][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.10.06-21.39.30:797][905]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.10.06-21.39.30:799][905]LogPlayLevel: [PlayLevel] Compiling Room_symmetric1 before play...
+[2019.10.06-21.39.30:799][905]LogPlayLevel: [PlayLevel]   Compiling Room_symmetric2 as a dependent...
+[2019.10.06-21.39.31:639][905]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2019.10.06-21.39.31:639][905]LogPlayLevel: PlayLevel: Blueprint regeneration took 842 ms (2 blueprints)
+[2019.10.06-21.39.31:639][905]PIE: New page: PIE session: Untitled_1 (07.10.2019 3:39.31)
+[2019.10.06-21.39.31:640][905]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.10.06-21.39.31:641][905]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2019.10.06-21.39.31:643][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002080s)
+[2019.10.06-21.39.31:644][905]LogAIModule: Creating AISystem for world Untitled_1
+[2019.10.06-21.39.31:644][905]LogPlayLevel: PIE: World Init took: (0.001182s)
+[2019.10.06-21.39.31:644][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003443s)
+[2019.10.06-21.39.31:672][905]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2019.10.06-21.39.31:676][905]LogInit: XAudio2 using 'Speakers (Logitech USB Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.06-21.39.31:686][905]LogInit: FAudioDevice initialized.
+[2019.10.06-21.39.31:691][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.39.31:755][905]LogLoad: Game class is 'CookieGameMode_C'
+[2019.10.06-21.39.31:756][905]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2019.10.07-00.39.31
+[2019.10.06-21.39.31:756][905]LogWorld: Bringing up level for play took: 0.000526
+[2019.10.06-21.39.31:757][905]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2019.10.06-21.39.31:762][905]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2019.10.06-21.39.31:791][905]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1,364
+[2019.10.06-21.39.31:791][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.10.06-21.39.31:881][906]LogRenderer: Reallocating scene render targets to support 1280x900 Format 10 NumSamples 1 (Frame:1).
+[2019.10.06-21.39.34:513][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.10.06-21.39.34:513][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.39.34:514][166]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2019.10.06-21.39.34:521][166]LogSlate: Window 'UE4JamGame Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.10.06-21.39.34:524][166]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-21.39.34:531][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.06-21.39.34:531][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Temp/Untitled_1.Untitled_1:PersistentLevel' has LevelScriptBlueprint '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled' with GeneratedClass '/Temp/Untitled_1.Untitled_C' with ClassGeneratedBy '/Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled'
+[2019.10.06-21.39.34:596][166]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2019.10.06-21.39.34:615][168]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.10.06-21.39.36:480][387]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_Symmetric2779D2BCA479C6FA5C03FB4A885692305.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_Symmetric2.uasset'
+[2019.10.06-21.39.37:307][483]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-21.39.55:061][559]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.10.06-21.40.04:156][601]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_barbie2.Room_barbie2
+[2019.10.06-21.40.11:084][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: request failed, libcurl error: 0 (No error)
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2464c0e3f70 [can pipeline])
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: libcurl info message cache 1 (Re-using existing connection! (#3) with host datarouter.ol.epicgames.com)
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.236.85.100) port 443 (#3))
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: libcurl info message cache 7 (Closing connection 3)
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: 000002469B548E00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.06-21.40.16:140][970]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.06-21.40.28:051][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.40.42:123][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.40.51:095][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.02:088][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.12:041][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.22:529][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.26:444][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.29:933][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.34:554][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.39:967][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.42:614][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.49:446][490]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.41.55:098][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.42.03:530][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.42.08:091][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.42.14:379][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.42.22:135][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.42.40:884][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.42.49:679][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.42.56:697][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.43.05:598][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.43.12:161][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.43.20:425][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.43.26:181][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.43.40:720][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.43.51:085][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.43.58:874][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.44.10:857][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.44.15:271][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.44.30:495][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.44.33:944][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.44.41:994][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.44.50:432][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.45.04:550][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.45.14:568][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.45.22:298][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.45.31:946][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.45.37:007][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.45.40:808][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.45.50:638][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.45.54:400][976]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.46.21:255][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.46.34:400][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.46.43:928][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.46.58:791][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.03:895][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.07:180][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.12:912][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.17:303][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.28:016][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.33:537][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.36:702][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.39:207][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.42:919][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.49:553][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.54:673][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.47.59:945][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.48.06:831][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.48.20:117][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.48.33:071][700]LogMaterial: Display: Missing cached shader map for material Mat_WallTexture, compiling. 
+[2019.10.06-21.48.33:100][700]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 43
+[2019.10.06-21.48.33:100][700]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2019.10.06-21.48.33:100][700]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2019.10.06-21.48.33:100][700]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2019.10.06-21.48.35:738][846]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2019.10.06-21.48.36:212][873]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2019.10.06-21.48.36:227][874]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2019.10.06-21.48.42:608][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.48.52:820][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.48.56:292][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.49.02:159][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.49.08:328][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.49.11:924][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: request failed, libcurl error: 0 (No error)
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2464c0e3f70 [can pipeline])
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: libcurl info message cache 1 (Re-using existing connection! (#6) with host datarouter.ol.epicgames.com)
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.23.186.239) port 443 (#6))
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: libcurl info message cache 7 (Closing connection 6)
+[2019.10.06-21.49.16:148][691]LogHttp: Warning: 00000246A374A200: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.06-21.49.16:157][692]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.06-21.49.25:480][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.49.28:980][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.49.54:889][725]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.50.00:770][285]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.50.08:334][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.50.16:007][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.50.23:332][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.50.31:079][207]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.50.37:491][806]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.50.40:455][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.50.47:073][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.50.56:744][519]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.51.00:902][902]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.51.13:439][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.51.17:462][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.51.24:355][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.51.38:811][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.51.53:113][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.51.59:957][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.52.26:614][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.52.38:791][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.52.53:583][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.53.01:445][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.53.12:457][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.53.19:834][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.53.24:673][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.53.45:804][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.53.49:450][179]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.06-21.53.56:655][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.54.04:459][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.54.06:191][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.54.10:584][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.54.14:231][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.54.17:881][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.54.23:088][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.54.27:114][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.54.31:817][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.54.45:350][573]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.54.49:546][975]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-21.55.06:718][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.55.15:346][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.55.24:033][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.55.33:043][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.55.57:916][613]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.06-21.55.57:955][613]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_barbie22F7E29F8432A91D142051D966DEAE0B7.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_barbie2.uasset'
+[2019.10.06-21.57.31:906][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-21.57.32:829][709]LogSlate: Window 'Room_barbie2' being destroyed
+[2019.10.06-22.00.19:245][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.00.25:585][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.00.31:254][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.00.40:699][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.00.44:774][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.00.52:742][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.00.58:711][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.01.42:075][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.02.05:786][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.02.10:830][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: request failed, libcurl error: 0 (No error)
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2464c0e3f70 [can pipeline])
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: libcurl info message cache 1 (Re-using existing connection! (#11) with host datarouter.ol.epicgames.com)
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (50.19.78.72) port 443 (#11))
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: libcurl info message cache 7 (Closing connection 11)
+[2019.10.06-22.02.16:168][333]LogHttp: Warning: 0000024710568540: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.06-22.02.16:176][334]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.06-22.02.35:968][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.02.39:664][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.02.47:836][761]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.02.56:350][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.03.05:130][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.03.15:170][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.03.52:658][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.04.05:768][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.04.12:039][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.04.17:243][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.04.39:991][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.05.13:888][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.05.33:750][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.05.33:854][707]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_barbie2DDA271B949F3F39B88359F9078FE2897.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_barbie2.uasset'
+[2019.10.06-22.05.34:912][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.05.34:986][837]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.05.47:810][356]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_castle2.Room_castle2
+[2019.10.06-22.05.57:102][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.05.57:143][394]LogSlate: Window 'Room_castle2' being destroyed
+[2019.10.06-22.05.57:153][394]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.05.59:703][690]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_LevelStart.Room_LevelStart
+[2019.10.06-22.06.11:246][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.06.11:304][  8]LogSlate: Window 'Room_LevelStart' being destroyed
+[2019.10.06-22.06.11:314][  8]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.06.15:102][429]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_AK1.Room_AK1
+[2019.10.06-22.06.38:852][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.06.38:910][116]LogSlate: Window 'Room_AK1' being destroyed
+[2019.10.06-22.06.38:921][116]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.06.53:011][685]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.10.06-22.07.04:107][982]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_futura1.Room_futura1
+[2019.10.06-22.07.36:491][873]LogUObjectHash: Compacting FUObjectHashTables data took   7.85ms
+[2019.10.06-22.07.36:491][873]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.931
+[2019.10.06-22.07.36:492][873]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/RoomCollection/Room_futura1] ([1] browsable assets)...
+[2019.10.06-22.07.36:835][873]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LevelActors/RoomCollection/Room_futura1.Room_futura1]
+[2019.10.06-22.07.36:835][873]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/RoomCollection/Room_futura1]
+[2019.10.06-22.07.36:859][873]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_futura1_Auto11845F30A41CF7EF674F8D3B84A31976C.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/RoomCollection/Room_futura1_Auto1.uasset'
+[2019.10.06-22.07.36:860][873]LogFileHelpers: Auto-saving content packages took 0.368
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: request failed, libcurl error: 0 (No error)
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2464c0e3f70 [can pipeline])
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: libcurl info message cache 1 (Re-using existing connection! (#13) with host datarouter.ol.epicgames.com)
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (23.20.51.18) port 443 (#13))
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: libcurl info message cache 7 (Closing connection 13)
+[2019.10.06-22.08.16:490][993]LogHttp: Warning: 00000246FCB48E00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.06-22.08.16:823][994]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.06-22.09.47:000][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.09.47:560][326]LogSlate: Window 'Room_futura1' being destroyed
+[2019.10.06-22.10.09:240][934]LogEditorFactories: Performing atomic reimport of [C:/Users/Game Maker/Downloads/Pulpit/futTile.png]
+[2019.10.06-22.10.09:243][934]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Game Maker/Downloads/Pulpit/futTile.png)
+[2019.10.06-22.10.09:253][934]LogTexture: Display: Building textures: futTile (AutoDXT, 800X800)
+[2019.10.06-22.10.09:648][934]LogEditorFactories: -- imported successfully
+[2019.10.06-22.10.40:420][402]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Floor/MatInst_FuturaFloor.MatInst_FuturaFloor
+[2019.10.06-22.10.40:661][402]LogRenderer: Reallocating scene render targets to support 1280x920 Format 10 NumSamples 1 (Frame:1).
+[2019.10.06-22.10.54:476][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.10.55:443][140]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2019.10.06-22.10.55:451][140]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.10.06-22.10.55:675][140]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.10.06-22.10.55:675][140]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.10.06-22.10.55:676][140]TextureStreamingBuild: Display: Compiling optional shaders took 0.233 seconds.
+[2019.10.06-22.10.55:704][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.10.06-22.10.55:716][140]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/MatInst_FuturaFloorAD0D16EB44B8D2C102F50A812BDBDFB2.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/Materials/MaterialInstances/Floor/MatInst_FuturaFloor.uasset'
+[2019.10.06-22.10.56:296][206]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.11.19:453][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.11.29:059][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.11.56:408][166]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.10.06-22.12.18:499][ 71]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FuturaWall.MatInst_FuturaWall
+[2019.10.06-22.12.38:505][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.12.48:566][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.12.48:661][593]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.10.06-22.12.48:676][593]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.10.06-22.12.48:901][593]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.10.06-22.12.48:901][593]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.10.06-22.12.48:902][593]TextureStreamingBuild: Display: Compiling optional shaders took 0.230 seconds.
+[2019.10.06-22.12.48:928][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.10.06-22.12.48:940][593]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.12.52:619][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.13.12:077][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.13.17:987][860]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.13.29:905][227]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.13.35:808][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.13.43:055][609]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.10.06-22.13.44:816][609]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.06-22.13.44:892][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2019.10.06-22.13.47:714][892]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWall.MatInst_FutureWall
+[2019.10.06-22.13.54:363][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.13.54:452][664]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.14.12:852][657]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.14.30:973][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.14.44:241][755]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallDown.MatInst_FutureWallDown
+[2019.10.06-22.15.47:650][419]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Game Maker\Downloads\Pulpit\furWall2.png)
+[2019.10.06-22.15.47:654][419]LogTexture: Display: Building textures: furWall2 (AutoDXT, 512X512)
+[2019.10.06-22.15.59:020][753]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.10.06-22.15.59:031][753]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.10.06-22.15.59:268][753]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2019.10.06-22.15.59:268][753]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2019.10.06-22.15.59:269][753]TextureStreamingBuild: Display: Compiling optional shaders took 0.242 seconds.
+[2019.10.06-22.15.59:296][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.10.06-22.15.59:308][753]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.16.15:878][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.16.45:030][739]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallWin.MatInst_FutureWallWin
+[2019.10.06-22.16.52:590][612]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2019.10.06-22.16.52:604][612]TextureStreamingBuild: Display: Compiling optional shaders took 0.007 seconds.
+[2019.10.06-22.16.52:630][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2019.10.06-22.16.52:640][612]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.16.55:220][900]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic1.MatInst_FutureWallPic1
+[2019.10.06-22.17.00:361][490]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2019.10.06-22.17.00:375][490]TextureStreamingBuild: Display: Compiling optional shaders took 0.007 seconds.
+[2019.10.06-22.17.00:401][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.10.06-22.17.00:413][490]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.17.02:419][714]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic.MatInst_FutureWallPic
+[2019.10.06-22.17.07:374][285]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2019.10.06-22.17.07:388][285]TextureStreamingBuild: Display: Compiling optional shaders took 0.007 seconds.
+[2019.10.06-22.17.07:414][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.10.06-22.17.07:425][285]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.17.16:919][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.17.32:132][960]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.17.37:844][560]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.17.46:790][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.18.00:257][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.18.19:753][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.18.27:089][226]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.06-22.19.00:366][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.19.18:223][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.19.36:818][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.20.32:247][598]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.20.57:789][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.21.17:092][750]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.21.27:448][920]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.21.36:875][910]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.21.46:722][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.22.33:021][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.22.39:048][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.22.50:621][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.22.56:957][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.23.34:791][415]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.23.42:034][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.23.47:686][761]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.23.52:757][306]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.23.59:243][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: request failed, libcurl error: 0 (No error)
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2464c0e3f70 [can pipeline])
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: libcurl info message cache 1 (Re-using existing connection! (#20) with host datarouter.ol.epicgames.com)
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.44.188.211) port 443 (#20))
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: libcurl info message cache 7 (Closing connection 20)
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: 00000246E5DF60C0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.06-22.24.16:138][ 32]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.06-22.24.29:510][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.24.47:861][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.24.57:626][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.25.12:221][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.25.21:211][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.25.39:747][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.25.57:036][887]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.06-22.25.59:226][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.26.05:185][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.26.31:603][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.26.51:978][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.27.01:976][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.27.06:319][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.27.17:391][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.27.23:224][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.27.32:473][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.27.45:067][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.27.53:875][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.28.11:616][364]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.28.39:536][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.28.50:613][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.29.08:731][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.29.14:903][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.29.17:812][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.29.25:516][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.29.58:040][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.30.22:207][762]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.30.53:871][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.31.06:016][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.31.12:421][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: request failed, libcurl error: 0 (No error)
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2464c0e3f70 [can pipeline])
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: libcurl info message cache 1 (Re-using existing connection! (#22) with host datarouter.ol.epicgames.com)
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.83.181.125) port 443 (#22))
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: libcurl info message cache 7 (Closing connection 22)
+[2019.10.06-22.31.16:167][471]LogHttp: Warning: 00000246B4118540: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.06-22.31.16:175][472]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.06-22.31.34:470][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.31.43:221][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.31.59:811][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.32.12:358][338]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.06-22.32.33:360][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.33.13:435][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.34.02:085][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.34.36:599][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.35.00:286][525]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-22.35.00:388][532]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_futura1F92784EB45240E5FCB997B908FC20D4A.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_futura1.uasset'
+[2019.10.06-22.35.06:296][236]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-22.35.44:541][794]LogUObjectHash: Compacting FUObjectHashTables data took  16.14ms
+[2019.10.06-22.35.44:541][794]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.724
+[2019.10.06-22.35.44:543][794]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/Materials/Textures/futTile] ([1] browsable assets)...
+[2019.10.06-22.35.44:787][794]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/LevelActors/Materials/Textures/futTile.futTile]
+[2019.10.06-22.35.44:787][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/Materials/Textures/futTile]
+[2019.10.06-22.35.44:849][794]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/futTile_Auto228F9F6AD446B4C2DAB121F94F536BF6F.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/Materials/Textures/futTile_Auto2.uasset'
+[2019.10.06-22.35.44:850][794]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallDown] ([1] browsable assets)...
+[2019.10.06-22.35.44:858][794]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallDown.MatInst_FutureWallDown]
+[2019.10.06-22.35.44:859][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallDown]
+[2019.10.06-22.35.44:872][794]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/MatInst_FutureWallDown_Auto21828677747946600B200F88A55940CB5.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallDown_Auto2.uasset'
+[2019.10.06-22.35.44:873][794]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/Materials/Textures/furWall2] ([1] browsable assets)...
+[2019.10.06-22.35.44:877][794]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/LevelActors/Materials/Textures/furWall2.furWall2]
+[2019.10.06-22.35.44:877][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/Materials/Textures/furWall2]
+[2019.10.06-22.35.44:885][794]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/furWall2_Auto26EB239624B05323D84AB92AC48368909.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/Materials/Textures/furWall2_Auto2.uasset'
+[2019.10.06-22.35.44:885][794]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic] ([1] browsable assets)...
+[2019.10.06-22.35.44:894][794]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic.MatInst_FutureWallPic]
+[2019.10.06-22.35.44:894][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic]
+[2019.10.06-22.35.44:908][794]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/MatInst_FutureWallPic_Auto2C21128D04A3F4DD436D51B8132773F65.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic_Auto2.uasset'
+[2019.10.06-22.35.44:910][794]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic1] ([1] browsable assets)...
+[2019.10.06-22.35.44:919][794]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic1.MatInst_FutureWallPic1]
+[2019.10.06-22.35.44:919][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic1]
+[2019.10.06-22.35.44:933][794]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/MatInst_FutureWallPic1_Auto28D83A9D74E8F5F21C8F2F395FE5FF2C7.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallPic1_Auto2.uasset'
+[2019.10.06-22.35.44:934][794]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallWin] ([1] browsable assets)...
+[2019.10.06-22.35.44:943][794]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallWin.MatInst_FutureWallWin]
+[2019.10.06-22.35.44:943][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallWin]
+[2019.10.06-22.35.44:957][794]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/MatInst_FutureWallWin_Auto2D05ED295406ED5BA7673DB988CBF9F2B.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/Materials/MaterialInstances/Wall/MatInst_FutureWallWin_Auto2.uasset'
+[2019.10.06-22.35.44:958][794]LogFileHelpers: Auto-saving content packages took 0.415
