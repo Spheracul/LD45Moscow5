@@ -1,4 +1,4 @@
-﻿Log file open, 10/06/19 22:17:33
+﻿Log file open, 10/07/19 00:20:57
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: UE4JamGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.059663
+LogStats: Stats thread started at 0.057015
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -126,7 +126,7 @@ LogInit: Compiled (64-bit): Aug 31 2019 02:04:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-LogInit: Command Line:  -EpicPortal -epicusername=Spheracul -epicuserid=b8c74a04a1a940be92b3445d5988d64b -epiclocale=en-US
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -157,723 +157,386 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Engine.ini]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Engine.ini]
-[2019.10.06-19.17.33:993][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Engine.ini]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Engine.ini]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.06-19.17.33:993][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Engine.ini]
-[2019.10.06-19.17.33:993][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Engine.ini]
-[2019.10.06-19.17.33:995][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.06-19.17.33:995][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.06-19.17.33:996][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.06-19.17.33:996][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:996][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.06-19.17.33:996][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.06-19.17.33:996][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.06-19.17.33:996][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.06-19.17.33:997][  0]LogHAL: Display: Platform has ~ 32 GB [34296127488 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.06-19.17.33:997][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.06-19.17.33:998][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Scalability.ini]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.06-19.17.33:998][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Config/Windows/Engine.ini]
-[2019.10.06-19.17.33:998][  0]LogInit: Computer: 3D1-10
-[2019.10.06-19.17.33:998][  0]LogInit: User: GameMaker
-[2019.10.06-19.17.33:999][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.06-19.17.33:999][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.06-19.17.33:999][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.10.06-19.17.33:999][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.06-19.17.33:999][  0]LogMemory: Process Physical Memory: 100.58 MB used, 100.58 MB peak
-[2019.10.06-19.17.33:999][  0]LogMemory: Process Virtual Memory: 88.45 MB used, 88.45 MB peak
-[2019.10.06-19.17.33:999][  0]LogMemory: Physical Memory: 5782.38 MB used,  26924.96 MB free, 32707.34 MB total
-[2019.10.06-19.17.33:999][  0]LogMemory: Virtual Memory: 4670.90 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2019.10.06-19.17.34:000][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.10.06-19.17.34:015][  0]LogInit: Using OS detected language (en-US).
-[2019.10.06-19.17.34:015][  0]LogInit: Using OS detected locale (et-EE).
-[2019.10.06-19.17.34:016][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.06-19.17.34:207][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.06-19.17.34:234][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.06-19.17.34:234][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.06-19.17.34:352][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.06-19.17.34:352][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.06-19.17.34:390][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2019.10.06-19.17.34:390][  0]LogD3D11RHI:       4058/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.10.06-19.17.34:391][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.06-19.17.34:391][  0]LogD3D11RHI:       0/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.06-19.17.34:391][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.06-19.17.34:395][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.06-19.17.34:395][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.06-19.17.34:395][  0]LogWindows: EnumDisplayDevices:
-[2019.10.06-19.17.34:395][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2019.10.06-19.17.34:395][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.10.06-19.17.34:395][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.10.06-19.17.34:395][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2019.10.06-19.17.34:396][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.10.06-19.17.34:396][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2019.10.06-19.17.34:396][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2019.10.06-19.17.34:396][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2019.10.06-19.17.34:396][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
-[2019.10.06-19.17.34:418][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.06-19.17.34:428][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.10.06-19.17.34:654][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.10.06-19.17.34:661][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.10.06-19.17.34:669][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.10.06-19.17.34:676][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.10.06-19.17.34:687][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.10.06-19.17.34:694][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.06-19.17.34:702][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.06-19.17.34:709][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.06-19.17.34:713][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.10.06-19.17.34:741][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.10.06-19.17.34:742][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.10.06-19.17.34:759][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.10.06-19.17.34:759][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.10.06-19.17.34:770][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.10.06-19.17.34:771][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.10.06-19.17.34:776][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.10.06-19.17.34:782][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.10.06-19.17.34:787][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.10.06-19.17.34:796][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.10.06-19.17.34:816][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.10.06-19.17.34:816][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.10.06-19.17.34:816][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.06-19.17.34:824][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.06-19.17.34:864][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Intermediate/Shaders/WorkingDirectory/9352/).
-[2019.10.06-19.17.34:864][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Game Maker/AppData/Local/Temp/UnrealShaderWorkingDir/0E9514B94D03743307D8F4AD83604631/'.
-[2019.10.06-19.17.34:867][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.06-19.17.34:867][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.06-19.17.34:867][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.06-19.17.35:395][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.06-19.17.35:444][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.06-19.17.35:444][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.10.06-19.17.35:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.06-19.17.35:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.06-19.17.35:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.06-19.17.35:444][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.06-19.17.35:453][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.06-19.17.35:453][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.06-19.17.35:453][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.10.06-19.17.35:455][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Game Maker/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.06-19.17.35:455][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.06-19.17.35:455][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.06-19.17.35:481][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.06-19.17.35:483][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.06-19.17.35:483][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.06-19.17.35:525][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
-[2019.10.06-19.17.35:730][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.06-19.17.35:848][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.06-19.17.35:848][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.06-19.17.35:848][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.06-19.17.35:848][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.06-19.17.35:848][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.06-19.17.35:855][  0]LogNetVersion: UE4JamGame 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 226814519)
-[2019.10.06-19.17.36:174][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.040912 seconds
-[2019.10.06-19.17.36:180][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.10.06-19.17.36:180][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.10.06-19.17.36:180][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.06-19.17.36:841][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.06-19.17.36:843][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.06-19.17.36:888][  0]SourceControl: Source control is disabled
-[2019.10.06-19.17.37:604][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.06-19.17.37:644][  0]LogOcInput: OculusInput pre-init called
-[2019.10.06-19.17.37:649][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.10.06-19.17.37:649][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.10.06-19.17.37:705][  0]LogEngine: Initializing Engine...
-[2019.10.06-19.17.37:706][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.06-19.17.37:707][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.10.06-19.17.37:883][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.06-19.17.37:896][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.06-19.17.37:902][  0]LogInit: No audio devices found!
-[2019.10.06-19.17.37:902][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.06-19.17.38:033][  0]LogDerivedDataCache: Saved boot cache 0.13s 73MB C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.10.06-19.17.38:041][  0]LogInit: Texture streaming: Enabled
-[2019.10.06-19.17.38:057][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.06-19.17.38:107][  0]LogInit: Transaction tracking system initialized
-[2019.10.06-19.17.38:133][  0]BlueprintLog: New page: Editor Load
-[2019.10.06-19.17.38:198][  0]LocalizationService: Localization service is disabled
-[2019.10.06-19.17.38:387][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Content/' took 0.00s
-[2019.10.06-19.17.38:387][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.06-19.17.38:387][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.06-19.17.38:529][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.06-19.17.38:529][  0]LightingResults: New page: Lighting Build
-[2019.10.06-19.17.38:531][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.10.06-19.17.38:531][  0]MapCheck: New page: Map Check
-[2019.10.06-19.17.38:531][  0]LightingResults: New page: Lighting Build
-[2019.10.06-19.17.38:553][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
-[2019.10.06-19.17.38:610][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.10.06-19.17.38:614][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.06-19.17.38:636][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
-[2019.10.06-19.17.38:636][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.06-19.17.38:637][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,136ms to complete.
-[2019.10.06-19.17.38:637][  0]LogFileHelpers: Loading map 'Template_Default' took 0.108
-[2019.10.06-19.17.38:819][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-19.17.38:828][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-19.17.38:835][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-19.17.38:842][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-19.17.38:854][  0]LogCollectionManager: Loaded 0 collections in 0.002954 seconds
-[2019.10.06-19.17.38:859][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Collections/' took 0.00s
-[2019.10.06-19.17.38:859][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Content/Developers/GameMaker/Collections/' took 0.00s
-[2019.10.06-19.17.38:859][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Content/Collections/' took 0.00s
-[2019.10.06-19.17.38:859][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2019.10.06-19.17.38:866][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2863 classes and 680 folders.
-[2019.10.06-19.17.38:872][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.10.06-19.17.39:115][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.10.06-19.17.39:120][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.10.06-19.17.39:129][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.06-19.17.39:130][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.06-19.17.39:139][  0]LogSlate: Took 0.004442 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.06-19.17.39:227][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2019.10.06-19.17.39:358][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.10.06-19.17.39:358][  0]LogLoad: (Engine Initialization) Total time: 6.43 seconds
-[2019.10.06-19.17.39:358][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.06-19.17.39:413][  0]LogAssetRegistry: Asset discovery search completed in 3.8881 seconds
-[2019.10.06-19.17.39:416][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2019.10.06-19.17.39:416][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
-[2019.10.06-19.17.39:417][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.06-19.17.39:448][  0]LogSlate: Took 0.003198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.06-19.17.40:388][108]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.06-19.17.42:491][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.06-19.17.53:720][702]LogAIModule: Creating AISystem for world MainLevel
-[2019.10.06-19.17.53:733][702]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MainLevel.MainLevel
-[2019.10.06-19.17.53:754][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
-[2019.10.06-19.17.53:755][702]Cmd: MAP LOAD FILE="../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Content/Levels/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.06-19.17.53:755][702]LightingResults: New page: Lighting Build
-[2019.10.06-19.17.53:755][702]LoadErrors: New page: Loading map: MainLevel.umap
-[2019.10.06-19.17.53:755][702]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
-[2019.10.06-19.17.53:755][702]MapCheck: New page: Map Check
-[2019.10.06-19.17.53:755][702]LightingResults: New page: Lighting Build
-[2019.10.06-19.17.53:775][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
-[2019.10.06-19.17.53:777][702]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.06-19.17.53:800][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
-[2019.10.06-19.17.53:829][702]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.06-19.17.53:830][702]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,093ms to complete.
-[2019.10.06-19.17.53:830][702]LogFileHelpers: Loading map 'MainLevel' took 0.076
-[2019.10.06-19.17.54:737][806]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.10.06-19.17.54:753][806]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
-[2019.10.06-19.17.54:753][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.06-19.17.54:754][806]PIE: New page: PIE session: MainLevel (07.10.2019 1:17.54)
-[2019.10.06-19.17.54:754][806]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.10.06-19.17.54:755][806]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
-[2019.10.06-19.17.54:757][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001880s)
-[2019.10.06-19.17.54:757][806]LogAIModule: Creating AISystem for world MainLevel
-[2019.10.06-19.17.54:758][806]LogPlayLevel: PIE: World Init took: (0.000769s)
-[2019.10.06-19.17.54:758][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.002806s)
-[2019.10.06-19.17.54:776][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
-[2019.10.06-19.17.54:780][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-19.17.54:805][806]LogBlueprint: Warning: Timeline MovementChangeTL Track MovementTL in /Engine/Transient.REINST_CookieBase_C_12 has an invalid curve.  Please fix!
-[2019.10.06-19.17.55:251][806]LogLoad: Game class is 'CookieGameMode_C'
-[2019.10.06-19.17.55:253][806]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2019.10.06-22.17.55
-[2019.10.06-19.17.55:253][806]LogWorld: Bringing up level for play took: 0.000744
-[2019.10.06-19.17.55:253][806]LogOnline: OSS: Creating online subsystem instance for: :Context_1
-[2019.10.06-19.17.55:259][806]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
-[2019.10.06-19.17.55:296][806]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 0,074
-[2019.10.06-19.17.55:296][806]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
-[2019.10.06-19.17.55:319][807]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.10.06-19.18.07:490][204]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
-[2019.10.06-19.18.07:491][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.06-19.18.07:491][204]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainLevel
-[2019.10.06-19.18.07:511][204]LogSlate: Window 'UE4JamGame Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.10.06-19.18.07:640][204]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
-[2019.10.06-19.18.07:650][204]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.06-19.18.07:650][204]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
-[2019.10.06-19.18.07:676][204]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
-[2019.10.06-19.18.07:685][205]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.10.06-19.18.13:589][908]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
-[2019.10.06-19.18.32:424][908]LogSlate: Window 'Submit Files' being destroyed
-[2019.10.06-19.18.34:363][908]LogSourceControl: commit successful: [master efef0ad] OMEGACOMMIT or watever
-[2019.10.06-19.18.34:885][908]SourceControl: [master efef0ad] OMEGACOMMIT or watever
-[2019.10.06-19.18.34:885][908]SourceControl:  50 files changed, 0 insertions(+), 0 deletions(-)
-[2019.10.06-19.18.34:885][908]SourceControl:  rewrite Content/LevelActors/FloorPiece.uasset (73%)
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Floor.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MasterMaterials/Mat_WAPatternBW.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MasterMaterials/Mat_WATexture.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MasterMaterials/Mat_Wall.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MasterMaterials/Mat_WallTexture.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle.uasset (100%)
-[2019.10.06-19.18.34:885][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_2.uasset (100%)
-[2019.10.06-19.18.34:885][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_Floor.uasset (100%)
-[2019.10.06-19.18.34:885][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_Pic.uasset (100%)
-[2019.10.06-19.18.34:885][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_Win.uasset (99%)
-[2019.10.06-19.18.34:885][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Wall.uasset (100%)
-[2019.10.06-19.18.34:885][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Wall_Bush.uasset (99%)
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Floor/MatInst_WAPatternFlowers.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Floor/MatInst_WATexture.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_2.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_Floor.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_Pic.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_Win.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_SpicyWall.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Wall_Bush.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Outer.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/Black_paper_floral_seamless_pattern_vector.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/Cloudnoise.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barTile.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barWall.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barWallPic.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barWallWin.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casTile.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWall.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWall2.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWallBush.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWallPic.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWallWin.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futTile.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWall.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWallPic.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWallPic2.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWallWin.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirTile.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirWall.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirWallPic.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirWallWin.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallBack.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallBorder1.uasset
-[2019.10.06-19.18.34:885][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallBorder2.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallFront.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallTops.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/satara_night_1k.uasset
-[2019.10.06-19.18.34:886][908]SourceControl: [master 731a1dc] OMEGACOMMIT or watever
-[2019.10.06-19.18.34:886][908]SourceControl:  Date: Sun Oct 6 22:18:33 2019 +0300
-[2019.10.06-19.18.34:886][908]SourceControl:  100 files changed, 0 insertions(+), 0 deletions(-)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/FloorPiece.uasset (73%)
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Floor.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/MasterMaterials}/Mat_WAPatternBW.uasset (98%)
-[2019.10.06-19.18.34:886][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/MasterMaterials}/Mat_WATexture.uasset (98%)
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MasterMaterials/Mat_Wall.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MasterMaterials/Mat_WallTexture.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_2.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_Floor.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_Pic.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_Win.uasset (99%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Wall.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Wall_Bush.uasset (99%)
-[2019.10.06-19.18.34:886][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/MaterialInstances/Floor}/MatInst_WAPatternFlowers.uasset (98%)
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Floor/MatInst_WATexture.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_2.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_Floor.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_Pic.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_Win.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/MaterialInstances/Wall}/MatInst_SpicyWall.uasset (98%)
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Wall_Bush.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Outer.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/Textures}/Black_paper_floral_seamless_pattern_vector.uasset (98%)
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/Cloudnoise.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barTile.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barWall.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barWallPic.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barWallWin.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casTile.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWall.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWall2.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWallBush.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWallPic.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWallWin.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futTile.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWall.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWallPic.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWallPic2.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWallWin.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirTile.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirWall.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirWallPic.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirWallWin.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallBack.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallBorder1.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallBorder2.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallFront.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallTops.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/satara_night_1k.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/Black_paper_floral_seamless_pattern_vector.uasset (99%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/Cloudnoise.uasset (99%)
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_CornerRoundConcL.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_CornerRoundConvL.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_CutinRound.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_CutinSharp.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_DiagonalPassage.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_FullSquare.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_TriangleL.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_CornerRoundL.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_CornerRoundS.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_CornerSharp.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_DiagonalL.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_DiagonalS.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_Doorway.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_FullPiece.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_HalfPiece.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieMoats2.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieMoats_Floor_MoatCorner.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieMoats_Floor_MoatEnd.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieMoats_Floor_MoatIntersect.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieMoats_Floor_MoatLong.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieMoats_Floor_MoatRamp.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/CookieStaticMeshes_FloorPiece.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/CookieStaticMeshes_WallDoor.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/CookieStaticMeshes_WallSolid.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/Floor.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Frame.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/Inner.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/MatInst_SpicyWall.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/MatInst_WAPatternFlowers.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/MatInst_WATexture.uasset (99%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/Mat_WAPatternBW.uasset (100%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/Mat_WATexture.uasset (99%)
-[2019.10.06-19.18.34:886][908]SourceControl:  rewrite Content/LevelActors/Meshes/Mat_WallTexture.uasset (99%)
-[2019.10.06-19.18.34:886][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_CornerRoundConcL.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_CornerRoundConvL.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_CutinRound.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_CutinSharp.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_DiagonalPassage.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_FullSquare.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_TriangleL.uasset
-[2019.10.06-19.18.34:886][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_CornerRoundL.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_CornerRoundS.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_CornerSharp.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_DiagonalL.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_DiagonalS.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_Doorway.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_FullPiece.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_HalfPiece.uasset
-[2019.10.06-19.18.34:887][908]SourceControl: [master 866cc99] OMEGACOMMIT or watever
-[2019.10.06-19.18.34:887][908]SourceControl:  Date: Sun Oct 6 22:18:33 2019 +0300
-[2019.10.06-19.18.34:887][908]SourceControl:  136 files changed, 0 insertions(+), 0 deletions(-)
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/FloorPiece.uasset (73%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Floor.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/MasterMaterials}/Mat_WAPatternBW.uasset (98%)
-[2019.10.06-19.18.34:887][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/MasterMaterials}/Mat_WATexture.uasset (98%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MasterMaterials/Mat_Wall.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MasterMaterials/Mat_WallTexture.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle.uasset (100%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_2.uasset (100%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_Floor.uasset (100%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_Pic.uasset (100%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Castle_Win.uasset (99%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Wall.uasset (100%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/Materials/Mat_Wall_Bush.uasset (99%)
-[2019.10.06-19.18.34:887][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/MaterialInstances/Floor}/MatInst_WAPatternFlowers.uasset (98%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Floor/MatInst_WATexture.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_2.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_Floor.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_Pic.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Castle_Win.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/MaterialInstances/Wall}/MatInst_SpicyWall.uasset (98%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/MaterialInstances/Wall/MatInst_Wall_Bush.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Outer.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials/Textures}/Black_paper_floral_seamless_pattern_vector.uasset (98%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/{Meshes => Materials}/Textures/Cloudnoise.uasset (98%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barTile.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barWall.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/{Meshes => Materials}/Textures/barWallPic.uasset (60%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/barWallWin.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casTile.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWall.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWall2.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/{Meshes => Materials}/Textures/casWallBush.uasset (97%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/{Meshes => Materials}/Textures/casWallPic.uasset (77%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/casWallWin.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/{Meshes => Materials}/Textures/futTile.uasset (77%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWall.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/{Meshes => Materials}/Textures/futWallPic.uasset (60%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/{Meshes => Materials}/Textures/futWallPic2.uasset (68%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/futWallWin.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirTile.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirWall.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirWallPic.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/Textures/pirWallWin.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallBack.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallBorder1.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallBorder2.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallFront.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Materials/WallTops.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  copy Content/LevelActors/{Meshes => Materials}/satara_night_1k.uasset (99%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/Meshes/Black_paper_floral_seamless_pattern_vector.uasset (99%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rewrite Content/LevelActors/Meshes/Cloudnoise.uasset (99%)
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_CornerRoundConcL.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_CornerRoundConvL.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_CutinRound.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_CutinSharp.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_DiagonalPassage.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_FullSquare.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Floor_TriangleL.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_CornerRoundL.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_CornerRoundS.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_CornerSharp.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_DiagonalL.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_DiagonalS.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_Doorway.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_FullPiece.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieBuilds_Wall_HalfPiece.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  create mode 100644 Content/LevelActors/Meshes/CookieMoats2.uasset
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/Meshes/{NewMeshes => }/CookieMoats_Floor_MoatCorner.uasset (98%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/Meshes/{NewMeshes => }/CookieMoats_Floor_MoatEnd.uasset (98%)
-[2019.10.06-19.18.34:887][908]SourceControl:  rename Content/LevelActors/Meshes/{NewMeshes => }/CookieMoats_Floor_MoatIntersect.uasset (98%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rename Content/LevelActors/Meshes/{NewMeshes => }/CookieMoats_Floor_MoatLong.uasset (98%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rename Content/LevelActors/Meshes/{NewMeshes => }/CookieMoats_Floor_MoatRamp.uasset (98%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/CookieStaticMeshes_FloorPiece.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/CookieStaticMeshes_WallDoor.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/CookieStaticMeshes_WallSolid.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/Floor.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Frame.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/Inner.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/MatInst_SpicyWall.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/MatInst_WAPatternFlowers.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/MatInst_WATexture.uasset (99%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/Mat_WAPatternBW.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/Mat_WATexture.uasset (99%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/Mat_WallTexture.uasset (99%)
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_CornerRoundConcL.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_CornerRoundConvL.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_CutinRound.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_CutinSharp.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_DiagonalPassage.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_FullSquare.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Floor_TriangleL.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_CornerRoundL.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_CornerRoundS.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_CornerSharp.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_DiagonalL.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_DiagonalS.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_Doorway.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_FullPiece.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieBuilds_Wall_HalfPiece.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/CookieMoats2.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/Floor.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/WallBack.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/WallBorder1.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/WallBorder2.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/WallFront.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/NewMeshes/WallTops.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/Outer.uasset (99%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/Sides.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/barTile.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/barWall.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/barWallWin.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/casTile.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/casWall.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/casWall2.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/casWallWin.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/futWall.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/futWallWin.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/pirTile.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/pirWall.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/pirWallPic.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  delete mode 100644 Content/LevelActors/Meshes/Textures/pirWallWin.uasset
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/WL_in.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/WP01.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/WP02.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/Wall_01.uasset (96%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/White_Paint.uasset (100%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Meshes/satara_night_1k.uasset (99%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/RoomBase.uasset (67%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/RoomCollection/Room_AK1.uasset (81%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/RoomCollection/Room_castle2.uasset (68%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/RoomCollection/Room_castle3.uasset (88%)
-[2019.10.06-19.18.34:888][908]SourceControl:  rewrite Content/LevelActors/Room_Banana.uasset (83%)
-[2019.10.06-19.18.34:892][908]SourceControl: Commited [master efef0ad] OMEGACOMMIT or watever.
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.20.57:208][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.06-21.20.57:208][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.06-21.20.57:209][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.06-21.20.57:209][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.06-21.20.57:209][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.20.57:209][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.20.57:210][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:210][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.06-21.20.57:210][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.06-21.20.57:210][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:210][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.06-21.20.57:210][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:210][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.06-21.20.57:211][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.06-21.20.57:211][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.06-21.20.57:211][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.06-21.20.57:213][  0]LogHAL: Display: Platform has ~ 32 GB [34296160256 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.06-21.20.57:213][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.06-21.20.57:213][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.06-21.20.57:213][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.06-21.20.57:213][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.06-21.20.57:213][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Scalability.ini]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.06-21.20.57:214][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.06-21.20.57:215][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.06-21.20.57:215][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.06-21.20.57:215][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Config/Windows/Engine.ini]
+[2019.10.06-21.20.57:215][  0]LogInit: Computer: 3D1-04
+[2019.10.06-21.20.57:215][  0]LogInit: User: GameMaker
+[2019.10.06-21.20.57:215][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.06-21.20.57:215][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.06-21.20.57:215][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.10.06-21.20.57:215][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.06-21.20.57:215][  0]LogMemory: Process Physical Memory: 100.39 MB used, 100.39 MB peak
+[2019.10.06-21.20.57:215][  0]LogMemory: Process Virtual Memory: 88.50 MB used, 88.50 MB peak
+[2019.10.06-21.20.57:215][  0]LogMemory: Physical Memory: 4499.28 MB used,  28208.09 MB free, 32707.37 MB total
+[2019.10.06-21.20.57:215][  0]LogMemory: Virtual Memory: 4670.90 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.10.06-21.20.57:217][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.10.06-21.20.57:232][  0]LogInit: Using OS detected language (en-US).
+[2019.10.06-21.20.57:232][  0]LogInit: Using OS detected locale (et-EE).
+[2019.10.06-21.20.57:233][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.06-21.20.57:378][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.06-21.20.57:430][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.06-21.20.57:430][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.06-21.20.57:544][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.06-21.20.57:544][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.06-21.20.57:582][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.10.06-21.20.57:582][  0]LogD3D11RHI:       4058/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.06-21.20.57:584][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.06-21.20.57:584][  0]LogD3D11RHI:       0/0/16353 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.06-21.20.57:584][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.06-21.20.57:587][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.06-21.20.57:587][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.06-21.20.57:587][  0]LogWindows: EnumDisplayDevices:
+[2019.10.06-21.20.57:587][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.10.06-21.20.57:587][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.10.06-21.20.57:588][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.10.06-21.20.57:588][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.10.06-21.20.57:588][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.10.06-21.20.57:588][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.10.06-21.20.57:588][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.10.06-21.20.57:588][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.10.06-21.20.57:588][  0]LogRHI: Texture pool is 2840 MB (70% of 4058 MB)
+[2019.10.06-21.20.57:612][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.06-21.20.57:621][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.06-21.20.57:841][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.06-21.20.57:847][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.06-21.20.57:854][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.06-21.20.57:860][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.06-21.20.57:867][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.06-21.20.57:874][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.06-21.20.57:881][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.06-21.20.57:887][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.06-21.20.57:890][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.06-21.20.57:914][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.06-21.20.57:915][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.06-21.20.57:929][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.06-21.20.57:929][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.06-21.20.57:939][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.06-21.20.57:939][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.06-21.20.57:944][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.06-21.20.57:949][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.06-21.20.57:955][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.06-21.20.57:960][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.06-21.20.57:979][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.06-21.20.57:979][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.06-21.20.57:979][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.06-21.20.57:986][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.06-21.20.58:020][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow52/Intermediate/Shaders/WorkingDirectory/1728/).
+[2019.10.06-21.20.58:020][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Game Maker/AppData/Local/Temp/UnrealShaderWorkingDir/797FE6344CD064E71FD8AF89BF04CC85/'.
+[2019.10.06-21.20.58:022][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.06-21.20.58:022][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.06-21.20.58:022][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.06-21.20.58:543][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow52/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow52/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.06-21.20.58:583][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.06-21.20.58:592][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.06-21.20.58:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.06-21.20.58:592][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.06-21.20.58:593][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Game Maker/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.06-21.20.58:593][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.06-21.20.58:593][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.06-21.20.58:611][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.06-21.20.58:613][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.06-21.20.58:613][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.06-21.20.58:655][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
+[2019.10.06-21.20.58:859][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.06-21.20.58:975][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.06-21.20.58:975][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.06-21.20.58:975][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.06-21.20.58:975][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.06-21.20.58:975][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.06-21.20.58:982][  0]LogNetVersion: UE4JamGame 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 226814519)
+[2019.10.06-21.20.59:297][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.041262 seconds
+[2019.10.06-21.20.59:303][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.10.06-21.20.59:303][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.10.06-21.20.59:303][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.06-21.20.59:963][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.06-21.20.59:965][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.06-21.21.00:004][  0]SourceControl: Source control is disabled
+[2019.10.06-21.21.00:004][  0]SourceControl: Source control is disabled
+[2019.10.06-21.21.00:005][  0]SourceControl: Source control is disabled
+[2019.10.06-21.21.00:006][  0]SourceControl: Source control is disabled
+[2019.10.06-21.21.00:067][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.06-21.21.00:132][  0]LogOcInput: OculusInput pre-init called
+[2019.10.06-21.21.00:137][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.10.06-21.21.00:137][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.10.06-21.21.00:190][  0]LogEngine: Initializing Engine...
+[2019.10.06-21.21.00:191][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.06-21.21.00:192][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.06-21.21.00:371][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.06-21.21.00:383][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.06-21.21.00:391][  0]LogInit: XAudio2 using 'Speakers (2- Logitech USB Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.06-21.21.00:409][  0]LogInit: FAudioDevice initialized.
+[2019.10.06-21.21.00:409][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.06-21.21.00:479][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/Game Maker/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.10.06-21.21.00:487][  0]LogInit: Texture streaming: Enabled
+[2019.10.06-21.21.00:501][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.06-21.21.00:549][  0]LogInit: Transaction tracking system initialized
+[2019.10.06-21.21.00:573][  0]BlueprintLog: New page: Editor Load
+[2019.10.06-21.21.00:638][  0]LocalizationService: Localization service is disabled
+[2019.10.06-21.21.00:853][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Content/' took 0.00s
+[2019.10.06-21.21.00:853][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.06-21.21.00:853][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.06-21.21.01:028][  0]SourceControl: Source control is disabled
+[2019.10.06-21.21.01:028][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.06-21.21.01:028][  0]LightingResults: New page: Lighting Build
+[2019.10.06-21.21.01:030][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-21.21.01:030][  0]MapCheck: New page: Map Check
+[2019.10.06-21.21.01:030][  0]LightingResults: New page: Lighting Build
+[2019.10.06-21.21.01:051][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.10.06-21.21.01:114][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.10.06-21.21.01:118][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.06-21.21.01:139][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2019.10.06-21.21.01:139][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.06-21.21.01:139][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,091ms to complete.
+[2019.10.06-21.21.01:139][  0]LogFileHelpers: Loading map 'Template_Default' took 0.112
+[2019.10.06-21.21.01:218][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.21.01:223][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.21.01:229][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.21.01:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.06-21.21.01:239][  0]LogCollectionManager: Loaded 0 collections in 0.001285 seconds
+[2019.10.06-21.21.01:245][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Saved/Collections/' took 0.00s
+[2019.10.06-21.21.01:245][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Content/Developers/GameMaker/Collections/' took 0.00s
+[2019.10.06-21.21.01:245][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Game Maker/Documents/GitHub/LD45Moscow52/Content/Collections/' took 0.00s
+[2019.10.06-21.21.01:245][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.10.06-21.21.01:251][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2863 classes and 680 folders.
+[2019.10.06-21.21.01:256][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.06-21.21.01:282][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.06-21.21.01:286][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.10.06-21.21.01:296][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.06-21.21.01:297][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.06-21.21.01:301][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.06-21.21.01:356][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.10.06-21.21.01:428][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.06-21.21.01:428][  0]LogLoad: (Engine Initialization) Total time: 4.96 seconds
+[2019.10.06-21.21.01:428][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.06-21.21.01:469][  0]LogAssetRegistry: Asset discovery search completed in 2.8146 seconds
+[2019.10.06-21.21.01:472][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2019.10.06-21.21.01:472][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2019.10.06-21.21.01:473][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.06-21.21.01:498][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
