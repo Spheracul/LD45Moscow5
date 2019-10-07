@@ -13736,3 +13736,31 @@ Script Stack (0 frames):
 [2019.10.07-03.34.31:005][730]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Room_AK2E494BA4149931C758A940C8512E81442.tmp' to '../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Content/LevelActors/RoomCollection/Room_AK2.uasset'
 [2019.10.07-03.34.31:061][730]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Room_castle3430212594A7416E7E806B180930C8279.tmp' to '../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Content/LevelActors/RoomCollection/Room_castle3.uasset'
 [2019.10.07-03.34.31:117][730]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Saved/Room_LevelStartF09601A8473813585FE40DA16DC4DF89.tmp' to '../../../../../../Users/Game Maker/Documents/Unreal Projects/UE4JamGame/Content/LevelActors/RoomCollection/Room_LevelStart.uasset'
+[2019.10.07-03.37.37:266][363]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_Symmetric2.
+[2019.10.07-03.37.37:270][363]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_barbie1.
+[2019.10.07-03.37.37:276][363]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_barbie2.
+[2019.10.07-03.37.37:282][363]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_barbie3.
+[2019.10.07-03.37.37:414][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_castle2.
+[2019.10.07-03.37.37:423][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_castle4.
+[2019.10.07-03.37.37:430][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_futura1.
+[2019.10.07-03.37.37:437][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_futura2.
+[2019.10.07-03.37.37:444][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_futura3.
+[2019.10.07-03.37.37:452][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_futura4.
+[2019.10.07-03.37.37:459][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_futura5.
+[2019.10.07-03.37.37:466][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_pir1.
+[2019.10.07-03.37.37:472][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_pir2.
+[2019.10.07-03.37.37:478][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_pir3.
+[2019.10.07-03.37.37:484][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_symmetric1.
+[2019.10.07-03.37.37:490][364]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/LevelActors/RoomCollection/Room_symmetric3.
+[2019.10.07-03.38.48:073][576]LogHttp: Warning: 00000143886A6AC0: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2396BD5-4127-3EE1-50CB-B09EC149E1C8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=638aeed3408d7289c4ec1b986177108d%7Cb8c74a04a1a940be92b3445d5988d64b%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.07-03.38.48:073][576]LogHttp: Warning: 00000143886A6AC0: request failed, libcurl error: 0 (No error)
+[2019.10.07-03.38.48:073][576]LogHttp: Warning: 00000143886A6AC0: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1420e1cbf70 [can pipeline])
+[2019.10.07-03.38.48:073][576]LogHttp: Warning: 00000143886A6AC0: libcurl info message cache 1 (Re-using existing connection! (#107) with host datarouter.ol.epicgames.com)
+[2019.10.07-03.38.48:073][576]LogHttp: Warning: 00000143886A6AC0: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.204.212.142) port 443 (#107))
+[2019.10.07-03.38.48:073][576]LogHttp: Warning: 00000143886A6AC0: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.07-03.38.48:073][576]LogHttp: Warning: 00000143886A6AC0: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.07-03.38.48:073][576]LogHttp: Warning: 00000143886A6AC0: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.07-03.38.48:074][576]LogHttp: Warning: 00000143886A6AC0: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.07-03.38.48:074][576]LogHttp: Warning: 00000143886A6AC0: libcurl info message cache 7 (Closing connection 107)
+[2019.10.07-03.38.48:074][576]LogHttp: Warning: 00000143886A6AC0: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.07-03.38.48:407][577]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2396BD5-4127-3EE1-50CB-B09EC149E1C8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=638aeed3408d7289c4ec1b986177108d%7Cb8c74a04a1a940be92b3445d5988d64b%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream
