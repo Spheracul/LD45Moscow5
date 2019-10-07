@@ -1534,3 +1534,403 @@ Script Stack (0 frames):
 [2019.10.06-23.47.09:191][225]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_futura41B03AC834FA3859596735EAB3694DD34.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_futura4.uasset'
 [2019.10.06-23.47.14:315][712]LogSlate: Window 'Room_futura4' being destroyed
 [2019.10.06-23.47.14:327][712]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2019.10.06-23.47.58:413][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   7.06ms
+[2019.10.06-23.47.58:413][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.721
+[2019.10.06-23.47.58:415][ 48]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/Materials/Textures/futMoat] ([1] browsable assets)...
+[2019.10.06-23.47.58:638][ 48]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/LevelActors/Materials/Textures/futMoat.futMoat]
+[2019.10.06-23.47.58:638][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/Materials/Textures/futMoat]
+[2019.10.06-23.47.58:650][ 48]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/futMoat_Auto57AA75BCD4D59CC64EB2FFC935A7F9B79.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/Materials/Textures/futMoat_Auto5.uasset'
+[2019.10.06-23.47.58:650][ 48]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/Materials/MaterialInstances/Floor/MatInst_FutMoat] ([1] browsable assets)...
+[2019.10.06-23.47.58:697][ 48]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Floor/MatInst_FutMoat.MatInst_FutMoat]
+[2019.10.06-23.47.58:698][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/Materials/MaterialInstances/Floor/MatInst_FutMoat]
+[2019.10.06-23.47.58:724][ 48]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/MatInst_FutMoat_Auto5D1F9C99744537939AFDFA58785F0602B.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/Materials/MaterialInstances/Floor/MatInst_FutMoat_Auto5.uasset'
+[2019.10.06-23.47.58:726][ 48]LogFileHelpers: Auto-saving content packages took 0.311
+[2019.10.06-23.50.28:498][450]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.10.06-23.50.28:637][457]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_futura5.Room_futura5
+[2019.10.06-23.50.41:187][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.50.59:163][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.51.11:158][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.51.13:729][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.51.15:470][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.51.17:587][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.51.19:723][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.51.25:509][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.51.36:682][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.51.48:329][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.52.30:185][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.52.38:018][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.52.50:436][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.52.56:006][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.53.13:115][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.53.26:527][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.53.33:213][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.53.40:130][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.53.55:631][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.53.58:303][262]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.06-23.54.05:009][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.54.12:293][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.54.32:404][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.54.38:578][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.54.40:848][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.54.50:757][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.55.21:301][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.55.30:550][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.55.34:027][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.55.39:523][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.56.05:263][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.56.24:443][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.56.33:644][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.56.38:186][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.56.48:087][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.56.52:614][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.56.57:433][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.57.10:446][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.57.33:451][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.57.46:954][431]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.58.02:427][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.58.10:482][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.58.21:627][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.58.27:205][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.58.38:686][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.58.53:167][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.58.58:322][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.59.03:761][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.59.16:644][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.59.30:862][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.59.42:623][878]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.06-23.59.56:333][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.00.10:665][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.00.15:469][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.00.19:813][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.00.25:931][925]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.00.37:493][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.00.44:076][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.00.54:299][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.00.59:011][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.01.05:627][404]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.01.15:617][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.01.28:498][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.01.45:758][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.01.57:913][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.02.07:785][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.02.23:623][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.02.28:387][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.02.49:619][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.03.00:330][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.03.26:915][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.03.48:285][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.03.53:331][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.03.55:545][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.03.59:803][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.04.21:275][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.04.27:186][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.04.33:697][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.04.44:161][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.04.55:469][935]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.05.06:383][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.05.23:027][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.05.35:960][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.05.41:117][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.06.23:159][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.06.29:056][261]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.07-00.06.38:375][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.06.42:893][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.06.48:175][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.07.08:885][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.07.16:730][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.07.29:346][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.07.29:437][474]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_futura5497A197841385564026732ADA1B2E8A2.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_futura5.uasset'
+[2019.10.07-00.07.30:721][589]LogSlate: Window 'Room_futura5' being destroyed
+[2019.10.07-00.07.30:733][589]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2019.10.07-00.08.13:860][601]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_barbie2.Room_barbie2
+[2019.10.07-00.08.30:595][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.08.30:629][575]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2019.10.07-00.08.35:426][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   9.15ms
+[2019.10.07-00.08.37:095][196]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_barbie3.Room_barbie3
+[2019.10.07-00.08.53:306][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.08.56:297][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.08.58:401][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.09.00:435][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.09.02:313][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.09.04:132][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.09.06:895][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.09.31:004][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.09.43:485][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.10.10:344][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.10.14:496][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.10.18:779][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.10.21:479][ 91]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.07-00.10.28:757][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.10.38:284][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.11.00:074][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.11.42:157][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.11.53:186][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.12.09:375][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.12.13:231][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.12.27:345][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.12.34:696][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.12.44:531][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.12.48:562][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.13.16:260][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.13.23:944][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.13.28:695][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.13.33:430][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.13.48:520][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.13.52:683][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.14.06:052][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.14.10:336][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.14.13:311][487]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.07-00.14.19:873][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.14.34:875][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.14.41:019][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.14.53:487][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.14.59:538][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.15.06:216][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.15.11:604][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.15.21:203][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.15.25:900][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.15.33:173][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.15.37:177][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.15.46:529][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.15.51:166][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.15.56:155][603]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.16.01:781][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.16.05:605][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.16.09:651][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: request failed, libcurl error: 0 (No error)
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2464c0e3f70 [can pipeline])
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: libcurl info message cache 1 (Re-using existing connection! (#63) with host datarouter.ol.epicgames.com)
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.86.156.38) port 443 (#63))
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: libcurl info message cache 7 (Closing connection 63)
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: 000002475B644900: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.07-00.16.16:153][480]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.07-00.16.23:797][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.16.37:892][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.16.42:043][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.16.50:026][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.16.57:586][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.17.01:550][873]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.17.08:891][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.17.17:600][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.17.21:000][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.17.26:418][297]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.17.32:293][835]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.17.58:900][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.18.04:724][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.19.16:259][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.19.38:771][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.19.47:281][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.19.51:674][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.20.01:101][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.20.12:099][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.20.31:803][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.20.40:707][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.20.52:492][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.20.54:495][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.21.00:342][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.21.09:714][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.21.20:543][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.21.31:171][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.21.37:805][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.21.47:674][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.22.14:748][509]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.22.16:146][639]LogHttp: Warning: 0000024794D6D800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.10.07-00.22.16:146][639]LogHttp: Warning: 0000024794D6D800: request failed, libcurl error: 0 (No error)
+[2019.10.07-00.22.16:146][639]LogHttp: Warning: 0000024794D6D800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2464c0e3f70 [can pipeline])
+[2019.10.07-00.22.16:146][639]LogHttp: Warning: 0000024794D6D800: libcurl info message cache 1 (Re-using existing connection! (#65) with host datarouter.ol.epicgames.com)
+[2019.10.07-00.22.16:147][639]LogHttp: Warning: 0000024794D6D800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.5.92.97) port 443 (#65))
+[2019.10.07-00.22.16:147][639]LogHttp: Warning: 0000024794D6D800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.07-00.22.16:147][639]LogHttp: Warning: 0000024794D6D800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.10.07-00.22.16:147][639]LogHttp: Warning: 0000024794D6D800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.07-00.22.16:147][639]LogHttp: Warning: 0000024794D6D800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.07-00.22.16:147][639]LogHttp: Warning: 0000024794D6D800: libcurl info message cache 7 (Closing connection 65)
+[2019.10.07-00.22.16:147][639]LogHttp: Warning: 0000024794D6D800: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.10.07-00.22.16:158][640]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3E297640-4126-C83F-5677-CDA91ED46846%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=921d1c474a346f7f1cca83aeb599e3fd%7C7c91b686c1ff438093f71001c2f0265a%7C80efd43f-a12b-492e-819a-37e1a9141491&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.07-00.22.28:460][808]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.22.31:806][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.22.31:881][121]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_barbie3A64609DF427BB061A09F10AEA93B4CF4.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_barbie3.uasset'
+[2019.10.07-00.22.33:434][278]LogSlate: Window 'Room_barbie3' being destroyed
+[2019.10.07-00.22.33:446][278]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2019.10.07-00.22.34:713][414]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_barbie2.Room_barbie2
+[2019.10.07-00.22.42:140][170]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.22.44:384][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.22.44:489][406]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_barbie2FD03C72542DB74C7E1E956BC37529B52.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_barbie2.uasset'
+[2019.10.07-00.22.45:075][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.22.45:142][481]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2019.10.07-00.22.47:734][774]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_barbie1.Room_barbie1
+[2019.10.07-00.22.53:488][271]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.22.55:945][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.22.56:063][492]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_barbie1600B7369434FC4E3629C09B34801B12D.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_barbie1.uasset'
+[2019.10.07-00.22.56:615][544]LogSlate: Window 'Room_barbie1' being destroyed
+[2019.10.07-00.22.56:626][544]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2019.10.07-00.23.01:616][ 72]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_symmetric1.Room_symmetric1
+[2019.10.07-00.23.32:804][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.23.34:752][ 49]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_symmetric1BDDC35034E8B9CD477D50F82B2F2F948.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_symmetric1.uasset'
+[2019.10.07-00.23.35:521][114]LogSlate: Window 'Room_symmetric1' being destroyed
+[2019.10.07-00.23.35:526][114]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2019.10.07-00.23.42:772][877]LogUObjectHash: Compacting FUObjectHashTables data took   8.88ms
+[2019.10.07-00.23.44:692][ 46]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_symmetric3.Room_symmetric3
+[2019.10.07-00.23.53:301][ 40]LogSlate: Window 'Room_symmetric3' being destroyed
+[2019.10.07-00.23.53:312][ 40]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2019.10.07-00.23.56:236][367]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2019.10.07-00.23.57:822][367]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.07-00.23.57:825][367]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/LevelActors/RoomCollection/Room_symmetric3.Room_symmetric3
+[2019.10.07-00.23.58:453][367]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2019.10.07-00.23.58:751][367]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.10.07-00.24.02:494][777]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.10.07-00.24.02:667][788]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/LevelActors/RoomCollection/Room_symmetric3.Room_symmetric3
+[2019.10.07-00.24.12:177][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.24.12:362][718]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.073 s
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: === Handled ensure: ===
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: 
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: Ensure condition failed: Y != 0 [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMath.cpp] [Line: 105]
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: FMath::FMod(X=1811223937024.000000, Y=0.000000) : Y is zero, this is invalid and would result in NaN!
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: Stack: 
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff80bc90363 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff80b7760b5 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffddefd90 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffdd3af0f UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffdd9fbf1 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffddb6ef0 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffdde8df0 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffddeb94e UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffde081ec UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffdd9bde5 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffdd9b1c7 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffd8a921d UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffdd2b229 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ffffdd07301 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff80b744e4a UE4Editor-Core.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff80b7451f3 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff828e00021 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff828e085b4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff80bb99a8f UE4Editor-Core.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff80bb8ffe1 UE4Editor-Core.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff8540a7974 KERNEL32.DLL!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: [Callstack] 0x00007ff8547aa271 ntdll.dll!UnknownFunction []
+[2019.10.07-00.24.12:362][718]LogOutputDevice: Error: 
+[2019.10.07-00.24.12:362][718]LogStats:                SubmitErrorReport -  0.000 s
+[2019.10.07-00.24.12:824][718]LogStats:                    SendNewReport -  0.463 s
+[2019.10.07-00.24.12:824][718]LogStats:             FDebug::EnsureFailed -  0.536 s
+[2019.10.07-00.24.23:456][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.24.26:083][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.24.28:171][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.24.32:699][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.25.39:290][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.25.42:445][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.25.50:662][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.25.54:802][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.26.32:266][423]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.26.40:707][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.27.00:164][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.27.19:121][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.27.24:625][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.27.31:267][762]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.27.34:608][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.27.37:740][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.27.44:514][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.27.58:037][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.28.04:983][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.28.16:427][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.28.21:500][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.28.32:330][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.28.50:678][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.29.13:197][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.29.20:817][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.29.50:746][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.30.43:087][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.31.15:001][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.31.31:213][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.31.45:437][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.31.49:824][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.32.06:347][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.32.16:051][955]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.32.26:083][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.32.32:284][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.33.03:028][844]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.33.19:799][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.33.24:016][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.33.28:771][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.33.34:047][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.33.37:397][ 61]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.07-00.33.51:953][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.34.06:914][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.34.14:679][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.34.20:899][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.34.36:781][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.34.42:593][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.34.53:692][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.35.25:894][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.35.36:282][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.36.14:606][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.36.22:082][926]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.36.31:275][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.36.35:409][176]LogEditorTransaction: Undo Modify Component(s)
+[2019.10.07-00.36.57:827][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.37.11:195][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.37.45:427][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.37.49:039][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.38.04:818][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.38.08:514][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.38.12:538][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.38.16:479][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.38.46:155][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.38.49:467][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.39.00:690][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.39.43:501][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.39.56:619][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.40.11:539][302]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.40.22:498][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.40.27:707][740]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.40.34:638][329]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.40.39:143][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.41.14:514][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.41.35:963][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.41.43:796][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.41.49:844][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.42.01:281][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.42.05:222][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.42.14:529][566]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.42.27:595][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.42.48:177][702]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.42.53:968][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.43.05:375][276]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.43.11:289][837]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.43.19:252][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.43.59:422][  7]LogUObjectHash: Compacting FUObjectHashTables data took   7.27ms
+[2019.10.07-00.43.59:422][  7]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.560
+[2019.10.07-00.43.59:555][  7]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelActors/RoomCollection/Room_symmetric3] ([1] browsable assets)...
+[2019.10.07-00.43.59:785][  7]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/LevelActors/RoomCollection/Room_symmetric3.Room_symmetric3]
+[2019.10.07-00.43.59:785][  7]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelActors/RoomCollection/Room_symmetric3]
+[2019.10.07-00.43.59:807][  7]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_symmetric3_Auto653E0E18442C90114381B26B8F684F871.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Autosaves/Game/LevelActors/RoomCollection/Room_symmetric3_Auto6.uasset'
+[2019.10.07-00.43.59:807][  7]LogFileHelpers: Auto-saving content packages took 0.253
+[2019.10.07-00.44.22:708][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.44.23:346][455]LogSlate: Window 'Room_symmetric3' being destroyed
+[2019.10.07-00.44.28:498][790]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Game Maker\Downloads\Pulpit\dirtMilk.png)
+[2019.10.07-00.44.28:501][790]LogTexture: Display: Building textures: dirtMilk (AutoDXT, 512X512)
+[2019.10.07-00.44.53:276][892]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/LevelActors/Materials/MaterialInstances/Floor/MatInst_DirtMilk.MatInst_DirtMilk
+[2019.10.07-00.45.02:616][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.45.09:723][776]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2019.10.07-00.45.09:737][776]TextureStreamingBuild: Display: Compiling optional shaders took 0.007 seconds.
+[2019.10.07-00.45.09:781][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.10.07-00.45.09:793][776]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2019.10.07-00.45.12:034][  6]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.45.17:799][603]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.45.21:913][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.45.27:984][662]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.45.31:624][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.45.35:574][417]Cmd: TRANSACTION UNDO
+[2019.10.07-00.45.35:574][417]LogEditorTransaction: Undo Replace component used material
+[2019.10.07-00.45.37:777][656]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.45.50:653][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.46.00:042][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.07-00.46.10:898][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.46.10:997][339]LogSavePackage: Moving '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Saved/Room_symmetric311B36BEA4F39251BB884588159975FE6.tmp' to '../../../../../../Users/Game Maker/Documents/GitHub/LD45Moscow5/Content/LevelActors/RoomCollection/Room_symmetric3.uasset'
+[2019.10.07-00.46.11:606][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.07-00.46.12:214][482]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
